@@ -27,7 +27,17 @@
 # while i <=30:
 #     print(i)
 #     i+=1
-i = 2
-while i <=24:
-    print(i)
-    i+=2
+# i = 2
+# while i <=24:
+#     print(i)
+#     i+=2
+
+
+## Task 2: while... break
+# The **break** keyword will **break** out (exit) the loop.
+# When a **break** is encountered, the code in the **else** will
+# not be run.
+
+# Using a while loop:
+# 1. print the numbers from 1 to 10
+# 2. if the number is 5, **break** out of the loop
