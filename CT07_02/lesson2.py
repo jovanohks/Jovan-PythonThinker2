@@ -121,8 +121,8 @@
 # 1. Add a score system
 # 2. Add an ability for users to skip by saying “skip”
 # 3. Disqualify user when they have tried too many times
-questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg", "How many "]
-print(questions_answers[1])
+questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg", "How many Oceans are there", ""]
+print(questions_answers[0])
 question_num = 1
 # while True:
 #     if question_num = 1:
