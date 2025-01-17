@@ -156,5 +156,5 @@ while question_num !=4:
         else:
             print("you are wrong!")
 else:
-        print(f"Your finished with your quiz, here is your score {score}/3")
+    print(f"Your finished with your quiz, here is your score {score}/3")
 
