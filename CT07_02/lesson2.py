@@ -148,7 +148,8 @@ while True:
     if question_num ==3:
         z = input(questions_answers[4])
         if z == questions_answers[5]:
-            print("your finished with your quiz")
+
+            print(f"Your finished with your quiz, here is your score {score}")
             break
         elif x == "skip":
             print(f"Your finished with your quiz, here is your score {score}")
