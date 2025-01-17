@@ -78,6 +78,8 @@
 #     print("count has reached 10") 
 
 i = 1
-while i <=5:
+while True:
     print(i)
     i+=1
+    if i >=6:
+        
