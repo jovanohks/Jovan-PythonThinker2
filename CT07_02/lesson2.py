@@ -6,5 +6,7 @@
 # 3. from 2 to 24 (in even numbers)
 # for i in range(21):
 #     print(i)
-for i in range(1,31):
+# for i in range(1,31):
+#     print(i)
+for i in range(2,25,2):
     print(i)
