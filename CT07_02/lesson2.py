@@ -102,7 +102,7 @@ topping = ""
 while True:
     x = input("what topping do you want?")
     if x == "end":
-        topping = topping[:-1]
+        topping = topping[:-2]
         break
     else:
         topping += x + ", "
