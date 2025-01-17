@@ -125,10 +125,14 @@ questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg",
 "How many Oceans are there", "5", 
 "What is the only country that starts with 'Q'", "Qatar"]
 question_num = 1
+score = 0
 while True:
     if question_num == 1:
         x = input(questions_answers[0])
         if x == questions_answers[1]:
+            score+=1
+            question_num +=1
+        elif x == "skip":
             question_num +=1
         else:
             print("you are wrong!")
