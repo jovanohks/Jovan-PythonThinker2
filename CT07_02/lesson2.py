@@ -143,6 +143,8 @@ while True:
         if z == questions_answers[5]:
             print("your finished with your quiz")
             break
+        else:
+            print("you are wrong!")
 
         
 
