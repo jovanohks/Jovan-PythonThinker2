@@ -150,6 +150,8 @@ while True:
         if z == questions_answers[5]:
             print("your finished with your quiz")
             break
+        elif x == "skip":
+            question_num +=1
         else:
             print("you are wrong!")
 
