@@ -77,11 +77,25 @@
 # else:
 #     print("count has reached 10") 
 
-i = 1
-while i <= 10:
-    print(i)
-    i+=1
-    if i ==5:
-        break
-else:
-    print("count has reached 10")
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i+=1
+#     if i ==5:
+#         break
+# else:
+#     print("count has reached 10")
+
+#     ## Task 4: Ordering Pizzas with while loop
+# **Task: Using what you have learned above, code a program to
+# take a customer's order for pizza.
+# Declare a variable called _topping_.**
+
+# Using a while loop:
+# 1. Ask the user to enter a choice of topping
+# 2. For each topping entered, concatenate to the 'topping'
+#    variable
+# 3. exit the while loop if the user enters "end"
+# 4. On program end, print out the toppings that the customer
+#    has chosen.
+topping = ""
