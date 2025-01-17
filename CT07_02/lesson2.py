@@ -157,4 +157,7 @@ score = 0
 #             print("you are wrong!")
 # else:
 #     print(f"Your finished with your quiz, here is your score {score}/3")
+while question_num != 4:
+    for i in range(1,3):
+        x=input(question)
 
