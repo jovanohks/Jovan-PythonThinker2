@@ -121,9 +121,9 @@
 # 1. Add a score system
 # 2. Add an ability for users to skip by saying “skip”
 # 3. Disqualify user when they have tried too many times
-questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg", 
-"How many Oceans are there", "5", 
-"What is the only country that starts with 'Q'", "Qatar"]
+questions_answers = ["Who is the founder of Facebook", 
+"How many Oceans are there",
+"What is the only country that starts with 'Q'", "Mark Zuckerberg","5","Qatar"]
 question_num = 1
 score = 0
 # while question_num !=4:
@@ -159,5 +159,8 @@ score = 0
 #     print(f"Your finished with your quiz, here is your score {score}/3")
 while question_num != 4:
     for i in range(1,3):
-        x=input(question)
+        x=input(question_num[i])
+        if x == question_num[i+3]:
+            score +=1
+            
 
