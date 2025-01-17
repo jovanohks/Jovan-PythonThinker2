@@ -126,7 +126,7 @@ questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg",
 "What is the only country that starts with 'Q'", "Qatar"]
 question_num = 1
 score = 0
-while True:
+while question_num !=4:
     if question_num == 1:
         x = input(questions_answers[0])
         if x == questions_answers[1]:
