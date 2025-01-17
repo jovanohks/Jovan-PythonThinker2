@@ -139,6 +139,7 @@ while True:
     if question_num ==2:
         y = input(questions_answers[2])
         if y == questions_answers[3]:
+            score +=1
             question_num +=1
         elif x == "skip":
             question_num +=1
