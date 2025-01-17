@@ -70,3 +70,7 @@
 # 2. Ensure your code has an else
 
 # Observe if the code in the **else** runs.
+i = 1
+while i <=10:
+    print(i)
+     
