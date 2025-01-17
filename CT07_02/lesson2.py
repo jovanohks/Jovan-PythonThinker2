@@ -126,35 +126,35 @@ questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg",
 "What is the only country that starts with 'Q'", "Qatar"]
 question_num = 1
 score = 0
-while question_num !=4:
-    if question_num == 1:
-        x = input(questions_answers[0])
-        if x == questions_answers[1]:
-            score+=1
-            question_num +=1
-        elif x == "skip":
-            question_num +=1
-        else:
-            print("you are wrong!")
-    if question_num ==2:
-        y = input(questions_answers[2])
-        if y == questions_answers[3]:
-            score +=1
-            question_num +=1
-        elif x == "skip":
-            question_num +=1
-        else:
-            print("you are wrong!")
-    if question_num ==3:
-        z = input(questions_answers[4])
-        if z == questions_answers[5]:
-            score +=1
+# while question_num !=4:
+#     if question_num == 1:
+#         x = input(questions_answers[0])
+#         if x == questions_answers[1]:
+#             score+=1
+#             question_num +=1
+#         elif x == "skip":
+#             question_num +=1
+#         else:
+#             print("you are wrong!")
+#     if question_num ==2:
+#         y = input(questions_answers[2])
+#         if y == questions_answers[3]:
+#             score +=1
+#             question_num +=1
+#         elif x == "skip":
+#             question_num +=1
+#         else:
+#             print("you are wrong!")
+#     if question_num ==3:
+#         z = input(questions_answers[4])
+#         if z == questions_answers[5]:
+#             score +=1
            
-            question_num+=1
-        elif z == "skip":
-            question_num+=1
-        else:
-            print("you are wrong!")
-else:
-    print(f"Your finished with your quiz, here is your score {score}/3")
+#             question_num+=1
+#         elif z == "skip":
+#             question_num+=1
+#         else:
+#             print("you are wrong!")
+# else:
+#     print(f"Your finished with your quiz, here is your score {score}/3")
 
