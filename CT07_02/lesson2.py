@@ -150,7 +150,7 @@ while question_num !=4:
         if z == questions_answers[5]:
             score +=1
             print(f"Your finished with your quiz, here is your score {score}/3")
-            break
+            question_num+=1
         elif z == "skip":
             print(f"Your finished with your quiz, here is your score {score}/3")
         else:
