@@ -139,9 +139,9 @@ while True:
         else:
             print("you are wrong!")
     if question_num ==3:
-        z = input(questions_answers[2])
-        if y == questions_answers[3]:
-            question_num +1
+        z = input(questions_answers[4])
+        if z == questions_answers[5]:
+        
 
         
 
