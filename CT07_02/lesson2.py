@@ -121,3 +121,10 @@
 # 1. Add a score system
 # 2. Add an ability for users to skip by saying “skip”
 # 3. Disqualify user when they have tried too many times
+questions_answers = ["Who is the "]
+question_num = 1
+# while True:
+#     if question_num = 1:
+#         x = input("what is the capital of USA?")
+        
+
