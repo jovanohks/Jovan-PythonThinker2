@@ -151,7 +151,7 @@ while True:
             print("your finished with your quiz")
             break
         elif x == "skip":
-            print("Your finished with your quiz")
+            print(f"Your finished with your quiz, here is your score {score}")
         else:
             print("you are wrong!")
 
