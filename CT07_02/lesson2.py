@@ -16,4 +16,9 @@
 # following:**
 # 1. from 0 to 20
 # 2. from 1 to 30
-# 3. from 2 to 24
+# 3. from 2 to 24 (in even numbers)
+
+# 1
+i = 0
+while i <=20:
+    print(i)
