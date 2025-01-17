@@ -138,8 +138,8 @@ while True:
             question_num +=1
         else:
             print("you are wrong!")
-    if question_num ==2:
-        y = input(questions_answers[2])
+    if question_num ==3:
+        z = input(questions_answers[2])
         if y == questions_answers[3]:
             question_num +1
 
