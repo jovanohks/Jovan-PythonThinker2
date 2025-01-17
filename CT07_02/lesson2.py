@@ -121,10 +121,13 @@
 # 1. Add a score system
 # 2. Add an ability for users to skip by saying “skip”
 # 3. Disqualify user when they have tried too many times
-questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg", "How many Oceans are there", "5", ""]
+questions_answers = ["Who is the founder of Facebook", "Mark Zuckerberg", "How many Oceans are there", "5", "What is only country that starts with 'Q'", "Qatar"]
 question_num = 1
-# while True:
-#     if question_num = 1:
-#         x = input("what is the capital of USA?")
+while True:
+    if question_num == 1:
+        x = input(questions_answers[0])
+        if x == questions_answers[1]:
+            question_num +=1
+
         
 
