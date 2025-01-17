@@ -100,4 +100,8 @@
 #    has chosen.
 topping = ""
 while True:
-    x = input("")
+    x = input("what topping do you want?")
+    if x == "end":
+        break
+    else:
+        
