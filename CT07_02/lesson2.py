@@ -81,4 +81,5 @@ i = 1
 while i <= 10:
     print(i)
     i+=1
-else:p
+    if i ==
+else:print("count has reached 10")
