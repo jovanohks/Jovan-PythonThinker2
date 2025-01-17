@@ -102,6 +102,7 @@ topping = ""
 while True:
     x = input("what topping do you want?")
     if x == "end":
+        topping = topping =
         break
     else:
         topping = topping + x + " ,"
