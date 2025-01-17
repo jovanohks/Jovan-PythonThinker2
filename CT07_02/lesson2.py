@@ -152,7 +152,7 @@ while True:
             print(f"Your finished with your quiz, here is your score {score}/3")
             break
         elif x == "skip":
-            print(f"Your finished with your quiz, here is your score {score}")
+            print(f"Your finished with your quiz, here is your score {score}/3")
         else:
             print("you are wrong!")
 
