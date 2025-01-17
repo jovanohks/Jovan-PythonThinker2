@@ -105,6 +105,6 @@ while True:
         break
     else:
         topping += ", " + x  
-print("Your toppings: " + topping)
+print(f"Your toppings: {topping}")
 
 # Your toppings: hello, hi, nothing
