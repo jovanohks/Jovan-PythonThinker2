@@ -98,11 +98,13 @@
 # 3. exit the while loop if the user enters "end"
 # 4. On program end, print out the toppings that the customer
 #    has chosen.
-topping = input("what topping do you want?")
+topping = input("What topping do you want? ")
 while True:
-    x = input("what topping do you want?")
+    x = input("What topping do you want? ")
     if x == "end":
         break
     else:
         topping += ", " + x  
 print(topping)
+
+# 
