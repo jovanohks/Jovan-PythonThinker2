@@ -104,5 +104,5 @@ while True:
     if x == "end":
         break
     else:
-        topping = topping + x
+        topping = topping + x + " ."
 print(topping)
