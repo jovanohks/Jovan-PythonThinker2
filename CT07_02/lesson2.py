@@ -105,4 +105,4 @@ while True:
         break
     else:
         topping = topping + x
-print("")
+print(topping)
