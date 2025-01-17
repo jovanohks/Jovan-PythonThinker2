@@ -130,8 +130,18 @@ while True:
         x = input(questions_answers[0])
         if x == questions_answers[1]:
             question_num +=1
+        else:
+            print("you are wrong!")
     if question_num ==2:
-        y = input(questions_answers[3])
+        y = input(questions_answers[2])
+        if y == questions_answers[3]:
+            question_num +=1
+        else:
+            print("you are wrong!")
+    if question_num ==2:
+        y = input(questions_answers[2])
+        if y == questions_answers[3]:
+            question_num +1
 
         
 
