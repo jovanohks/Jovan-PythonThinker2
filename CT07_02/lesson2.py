@@ -98,13 +98,26 @@
 # 3. exit the while loop if the user enters "end"
 # 4. On program end, print out the toppings that the customer
 #    has chosen.
-topping = input("What topping do you want? ")
-while True:
-    x = input("What topping do you want? ")
-    if x == "end":
-        break
-    else:
-        topping += ", " + x  
-print(f"Your toppings: {topping}")
+# topping = input("What topping do you want? ")
+# while True:
+#     x = input("What topping do you want? ")
+#     if x == "end":
+#         break
+#     else:
+#         topping += ", " + x  
+# print(f"Your toppings: {topping}")
 
-# Your toppings: hello, hi, nothing
+
+## Task 5: General Knowledge Quiz
+# **Task: Create a program to quiz users on their general
+# knowledge**
+
+# Using the while loop, ask 3 general knowledge questions
+# 1. Using input ask the question
+# 2. While answer is not correct, repeat the question.
+# 3. Move on to the next question when the answer is correct
+
+# Bonus:
+# 1. Add a score system
+# 2. Add an ability for users to skip by saying “skip”
+# 3. Disqualify user when they have tried too many times
