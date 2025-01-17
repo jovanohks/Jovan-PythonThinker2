@@ -41,9 +41,15 @@
 # Using a while loop:
 # 1. print the numbers from 1 to 10
 # 2. if the number is 5, **break** out of the loop
+# i = 1
+# while True:
+#     print(i)
+#     i+=1
+#     if i >= 11:
+#         break
 i = 1
 while True:
     print(i)
     i+=1
-    if i >= 11:
+    if i >= 6:
         break
