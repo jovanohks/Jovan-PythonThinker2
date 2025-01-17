@@ -162,5 +162,6 @@ while question_num != 4:
         x=input(question_num[i])
         if x == question_num[i+3]:
             score +=1
+
             
 
