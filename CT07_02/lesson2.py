@@ -28,4 +28,6 @@
 #     print(i)
 #     i+=1
 i = 2
-while i <=
+while i <=24:
+    print(i)
+    i+=2
