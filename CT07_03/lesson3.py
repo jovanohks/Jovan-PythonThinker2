@@ -33,7 +33,7 @@ import time
 # only takes in seconds.
 # You will need to write a conversion algorithm to change
 # minutes to seconds.
-x = input("how many minuetes do u want to study for?")
+x = int(input("how many minuetes do u want to study for?"))
 while x !=0:
     print(x+ "minutes")
     time.sleep(60)
