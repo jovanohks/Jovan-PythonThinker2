@@ -82,3 +82,4 @@ from random import randint
 while True:
     x= randint(2,20)
     y = randint(2,20)
+    
