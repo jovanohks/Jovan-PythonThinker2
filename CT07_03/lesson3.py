@@ -79,14 +79,14 @@ from random import randint
 #     the question again.
 # 7. If the student has no more lives, exit and print
 #     "GO AND SEE MS TAN FOR REMEDIAL"
+x= randint(2,20)
+y = randint(2,20)
 lives = 3
 while True:
 
     if lives == 0:
         print("GO AND SEE MS TAN FOR REMEDIAL")
         break
-    x= randint(2,20)
-    y = randint(2,20)
     ans = x * y
     z = int(input(f"what is {x} * {y}"))
     if z != ans:
