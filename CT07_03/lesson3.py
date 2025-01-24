@@ -89,7 +89,7 @@ while qnno !=16:
         print("GO AND SEE MS TAN FOR REMEDIAL")
         break
     ans = x * y
-    z = int(input(f"Q{qnno} what is {x} * {y}"))
+    z = int(input(f"Q{qnno} what is {x} * {y} "))
     if z != ans:
         lives -=1
     else:
