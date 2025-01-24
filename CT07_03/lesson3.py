@@ -85,7 +85,6 @@ from random import randint
 import time
 
 start = time.time()
-end = time.time()
 
 x= randint(2,20)
 y = randint(2,20)
