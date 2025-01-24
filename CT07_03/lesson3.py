@@ -92,6 +92,7 @@ while qnno !=4:
     z = int(input(f"Q{qnno} what is {x} * {y} "))
     if z != ans:
         lives -=1
+        print("you are wrong!")
     else:
         x= randint(2,20)
         y = randint(2,20)
