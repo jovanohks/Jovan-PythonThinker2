@@ -83,8 +83,7 @@ x= randint(2,20)
 y = randint(2,20)
 lives = 3
 qnno = 1
-while qnno !=4:
-
+while qnno != 16:
     if lives == 0:
         print("you finished the quiz!")
         print("GO AND SEE MS TAN FOR REMEDIAL")
@@ -103,3 +102,5 @@ if lives == 3:
     print("you got everything right!, you dont need remedial!")
 if lives == 1 or lives == 2:
     print(f"you got {15+(lives-3)}/15 correct, you dont need remedial")
+
+# Time the quiz and 
