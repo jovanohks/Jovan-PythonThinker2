@@ -84,6 +84,7 @@ from random import randint
 # If time taken < 1 minute, just print the seconds. (e.g You took 30 seconds)
 
 import time
+import math
 
 start = time.time()
 
