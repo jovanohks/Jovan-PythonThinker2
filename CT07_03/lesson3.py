@@ -94,3 +94,4 @@ while qnno !=16:
     else:
         x= randint(2,20)
         y = randint(2,20)
+    
