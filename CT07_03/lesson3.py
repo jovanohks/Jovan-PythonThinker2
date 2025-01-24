@@ -8,5 +8,6 @@
 # 3. While answer is not correct, repeat the question
 riddleqans = ["what is 1+1?", "2"]
 ans = False
-
+while ans != True:
+    x = input
 
