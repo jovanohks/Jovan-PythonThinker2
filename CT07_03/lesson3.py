@@ -82,7 +82,7 @@ from random import randint
 lives = 3
 while True:
     if lives == 0:
-        print("")
+        print("GO AND SEE MS TAN FOR REMEDIAL")
     x= randint(2,20)
     y = randint(2,20)
     ans = x * y
