@@ -80,4 +80,5 @@ from random import randint
 # 7. If the student has no more lives, exit and print
 #     "GO AND SEE MS TAN FOR REMEDIAL"
 while True:
-    
+    x= randint(2,20)
+    y = randint(2,20)
