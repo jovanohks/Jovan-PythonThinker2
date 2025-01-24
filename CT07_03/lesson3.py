@@ -55,7 +55,7 @@ import time
 
 savings = 0
 while savings <100:
-    x = int(input("how much did you save?"))
+    x = float(input("how much did you save?"))
     savings = savings +x
     print(f"you have {savings}")
 else:
