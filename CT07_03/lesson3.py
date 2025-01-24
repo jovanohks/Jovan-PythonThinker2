@@ -86,6 +86,7 @@ qnno = 1
 while qnno !=4:
 
     if lives == 0:
+        print("you finished the quiz!")
         print("GO AND SEE MS TAN FOR REMEDIAL")
         break
     ans = x * y
