@@ -82,14 +82,14 @@ from random import randint
 x= randint(2,20)
 y = randint(2,20)
 lives = 3
-qnno 
+qnno = 1
 while qnno !=16:
 
     if lives == 0:
         print("GO AND SEE MS TAN FOR REMEDIAL")
         break
     ans = x * y
-    z = int(input(f"what is {x} * {y}"))
+    z = int(input(f"Q{qnnowhat is {x} * {y}"))
     if z != ans:
         lives -=1
     else:
