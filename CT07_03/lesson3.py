@@ -113,3 +113,4 @@ if lives == 1 or lives == 2:
 end = time.time()
 ttaken = start-end
 if ttaken < 60:
+    print (f"you took {ttaken} seconds")
