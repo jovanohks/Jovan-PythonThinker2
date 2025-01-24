@@ -58,5 +58,4 @@ while savings <100:
     x = float(input("how much did you save?"))
     savings = savings +x
     print(f"you have {savings}")
-else:
-    print("good job!")
+print("good job!")
