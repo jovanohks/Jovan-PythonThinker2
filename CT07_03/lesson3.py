@@ -82,6 +82,7 @@ from random import randint
 x= randint(2,20)
 y = randint(2,20)
 lives = 3
+qnno 
 while qnno !=16:
 
     if lives == 0:
@@ -94,4 +95,4 @@ while qnno !=16:
     else:
         x= randint(2,20)
         y = randint(2,20)
-    
+        qnno +=1
