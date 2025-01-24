@@ -16,8 +16,7 @@ while ans != True:
         print("u are wrong.")
 
 
-riddle_ans = "phone"
-user_ans = ""
-
-while user_ans != riddle_ans:
-    user_ans = input("You answer me, although I never ask you questions. What am I? ")
+# riddle_ans = "phone"
+# user_ans = ""
+# while user_ans != riddle_ans:
+#     user_ans = input("You answer me, although I never ask you questions. What am I? ")
