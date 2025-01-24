@@ -98,3 +98,5 @@ while qnno !=4:
         y = randint(2,20)
         qnno +=1
         print("you are right!")
+if lives == 3:
+    print("you got everything right!")
