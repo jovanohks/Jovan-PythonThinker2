@@ -103,4 +103,4 @@ if lives == 3:
 if lives == 1 or lives == 2:
     print(f"you got {15+(lives-3)}/15 correct, you dont need remedial")
 
-# Time the quiz and tell them how long it took to finish the quiz in minutes and seconds (e.g 1 min 40 seconds)
+# Time the quiz and tell them how long it took to finish the quiz in minutes and seconds, for those who passed only (e.g 1 min 40 seconds)
