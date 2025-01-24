@@ -16,7 +16,7 @@ while ans != True:
         print("u are wrong.")
 
 riddleqans = ["what is 1+1?", "2"]
-ans = False
+ans = input(riddleqans[0])
 while ans != True:
     x = input(riddleqans[0])
     if x == riddleqans[1]:
