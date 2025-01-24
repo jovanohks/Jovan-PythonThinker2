@@ -100,4 +100,6 @@ while qnno !=4:
         qnno +=1
         print("you are right!")
 if lives == 3:
-    print("you got everything right!")
+    print("you got everything right!, you dont need remedial!")
+if lives == 1 or lives == 2:
+    print("")
