@@ -96,3 +96,4 @@ while qnno !=4:
         x= randint(2,20)
         y = randint(2,20)
         qnno +=1
+        print("you are right!")
