@@ -33,6 +33,7 @@ while ans != True:
 # only takes in seconds.
 # You will need to write a conversion algorithm to change
 # minutes to seconds.
+x = input("how many minuetes do u want to study for?")
 
 
 
