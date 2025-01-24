@@ -1,3 +1,4 @@
+import time
 # Lesson 3 - More While Loops
 
 ## Recap 1: Riddler
