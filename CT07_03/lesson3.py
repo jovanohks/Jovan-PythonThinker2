@@ -113,7 +113,7 @@ if lives == 1 or lives == 2:
     print(f"you got {15+(lives-3)}/15 correct, you dont need remedial")
 end = time.time()
 ttaken = end - start
-if ttaken < 60:
+if ttaken < 0:
     print (f"you took {ttaken} seconds")
 else:
     mins = math.floor(ttaken/60)
