@@ -79,6 +79,14 @@ from random import randint
 #     the question again.
 # 7. If the student has no more lives, exit and print
 #     "GO AND SEE MS TAN FOR REMEDIAL"
+
+# Time the quiz and tell them how long it took to finish the quiz in minutes and seconds, for those who passed only (e.g 1 min 40 seconds)
+
+import time
+
+start = time.time()
+end = time.time()
+print(end - start)
 x= randint(2,20)
 y = randint(2,20)
 lives = 3
@@ -103,4 +111,3 @@ if lives == 3:
 if lives == 1 or lives == 2:
     print(f"you got {15+(lives-3)}/15 correct, you dont need remedial")
 
-# Time the quiz and tell them how long it took to finish the quiz in minutes and seconds, for those who passed only (e.g 1 min 40 seconds)
