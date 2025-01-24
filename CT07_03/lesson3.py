@@ -35,6 +35,7 @@ while ans != True:
 # minutes to seconds.
 x = input("how many minuetes do u want to study for?")
 while x !=0:
+    print(x+ "minuete")
     time.sleep(60)
 print("good job!")
 
