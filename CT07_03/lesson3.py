@@ -9,5 +9,6 @@
 riddleqans = ["what is 1+1?", "2"]
 ans = False
 while ans != True:
-    x = input
+    x = input(riddleqans[0])
+    
 
