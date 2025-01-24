@@ -83,4 +83,4 @@ while True:
     x= randint(2,20)
     y = randint(2,20)
     ans = x * y
-    
+    z = input()
