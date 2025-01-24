@@ -59,3 +59,23 @@ import time
 #     print(f"You have ${savings}")
 # print("Good job!")
 from random import randint
+
+## Task 3: Multiplication Quiz
+# **Task: Ms Tan, your math teacher knows that you are a
+# programming whiz,
+# she has asked you to help code a multiplication quiz for
+# the class to practice.**
+
+# Here are her requirements:
+# 1. Students have to answer 15 questions in total
+# 2. Students have 3 lives (chances). i.e. they can get the
+#    question wrong 3 times.
+# 3. The questions will be in this format: "What is 3 x 19? ". 
+# 4. The numbers for each question will be randomly generated
+#    and between the range of 2 to 20.
+# 5. If the student answers correctly, move on to the next
+#    question
+# 6. If the student answers wrongly, minus 1 life, and ask
+#     the question again.
+# 7. If the student has no more lives, exit and print
+#     "GO AND SEE MS TAN FOR REMEDIAL"
