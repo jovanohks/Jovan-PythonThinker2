@@ -114,3 +114,5 @@ end = time.time()
 ttaken = start-end
 if ttaken < 60:
     print (f"you took {ttaken} seconds")
+else:
+    print(f"you took {ttaken}")
