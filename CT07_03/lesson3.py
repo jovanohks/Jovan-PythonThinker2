@@ -53,8 +53,9 @@ import time
 
 # example inputs: 5, 0, 0.50, 20.20, 1000
 
-savings = 0
-while savings <100:
-    savings += float(input("how much did you save?"))
-    print(f"you have {savings}")
-print("good job!")
+# savings = 0
+# while savings <100:
+#     savings += float(input("How much did you save? (in dollars)"))
+#     print(f"You have ${savings}")
+# print("Good job!")
+
