@@ -86,7 +86,7 @@ import time
 
 start = time.time()
 end = time.time()
-print(end - start)
+
 x= randint(2,20)
 y = randint(2,20)
 lives = 3
@@ -110,4 +110,5 @@ if lives == 3:
     print("you got everything right!, you dont need remedial!")
 if lives == 1 or lives == 2:
     print(f"you got {15+(lives-3)}/15 correct, you dont need remedial")
-
+end = time.time()
+print(end - start)
