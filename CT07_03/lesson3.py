@@ -82,6 +82,7 @@ from random import randint
 lives = 3
 qnum = 1
 while True:
+    
     if lives == 0:
         print("GO AND SEE MS TAN FOR REMEDIAL")
     x= randint(2,20)
