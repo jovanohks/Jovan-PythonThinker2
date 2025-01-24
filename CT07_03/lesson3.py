@@ -12,4 +12,6 @@ while ans != True:
     x = input(riddleqans[0])
     if x == riddleqans[1]:
         break
+    else:
+        print("u are wrong.")
 
