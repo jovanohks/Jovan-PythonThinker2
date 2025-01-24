@@ -80,6 +80,7 @@ from random import randint
 # 7. If the student has no more lives, exit and print
 #     "GO AND SEE MS TAN FOR REMEDIAL"
 lives = 3
+qnum = 1
 while True:
     if lives == 0:
         print("GO AND SEE MS TAN FOR REMEDIAL")
