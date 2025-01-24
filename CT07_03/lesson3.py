@@ -15,3 +15,12 @@ while ans != True:
     else:
         print("u are wrong.")
 
+riddleqans = ["what is 1+1?", "2"]
+ans = False
+while ans != True:
+    x = input(riddleqans[0])
+    if x == riddleqans[1]:
+        break
+    else:
+        print("u are wrong.")
+
