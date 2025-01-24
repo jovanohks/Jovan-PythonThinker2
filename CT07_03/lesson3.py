@@ -54,7 +54,7 @@ import time
 # example inputs: 5, 0, 0.50, 20.20, 1000
 
 savings = 0
-while savings <=100:
+while savings <100:
     x = int(input("how much did you save?"))
     savings = savings +x
     print(f"you have {savings}")
