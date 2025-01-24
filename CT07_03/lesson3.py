@@ -87,3 +87,4 @@ while True:
     y = randint(2,20)
     ans = x * y
     z = int(input(f"what is {x} * {y}"))
+    
