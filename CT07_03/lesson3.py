@@ -116,5 +116,5 @@ ttaken = end - start
 if ttaken < 60:
     print (f"you took {ttaken} seconds")
 else:
-    print(f"you took {ttaken/60} minuetes {ttaken - 60} secconds")
+    print(f"you took {floor(ttaken/60)} minuetes {ttaken - 60} secconds")
     
