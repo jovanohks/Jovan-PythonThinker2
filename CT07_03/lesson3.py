@@ -110,4 +110,4 @@ if lives == 3:
 if lives == 1 or lives == 2:
     print(f"you got {15+(lives-3)}/15 correct, you dont need remedial")
 end = time.time()
-print(f"{end-start}")
+print(f"{(end-start)/60}")
