@@ -36,6 +36,7 @@ import time
 x = int(input("how many minuetes do u want to study for?"))
 while x !=0:
     print(str(x)+ "minutes")
+    print(f"")
     time.sleep(60)
     x -=1
 print("good job!")
