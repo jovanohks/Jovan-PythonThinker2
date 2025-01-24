@@ -91,3 +91,6 @@ while True:
     z = int(input(f"what is {x} * {y}"))
     if z != ans:
         lives -=1
+    else:
+        x= randint(2,20)
+        y = randint(2,20)
