@@ -50,3 +50,8 @@ import time
 # 3. While savings is less than 100, you continue to save
 # 4. Exit the program when savings is more than 100 and
 #    congratulate the user.
+
+
+
+savings = 0
+while savings <=100:
