@@ -83,7 +83,7 @@ x= randint(2,20)
 y = randint(2,20)
 lives = 3
 qnno = 1
-while qnno !=16:
+while qnno !=4:
 
     if lives == 0:
         print("GO AND SEE MS TAN FOR REMEDIAL")
