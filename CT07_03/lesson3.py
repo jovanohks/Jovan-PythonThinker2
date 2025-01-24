@@ -34,6 +34,7 @@ while ans != True:
 # You will need to write a conversion algorithm to change
 # minutes to seconds.
 x = input("how many minuetes do u want to study for?")
-time.sleep(x*60)
-print good
+while x !=0:
+    time.sleep(60)
+print("good job!")
 
