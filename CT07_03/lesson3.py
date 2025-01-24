@@ -82,7 +82,7 @@ from random import randint
 x= randint(2,20)
 y = randint(2,20)
 lives = 3
-while True:
+while qnno !=16:
 
     if lives == 0:
         print("GO AND SEE MS TAN FOR REMEDIAL")
