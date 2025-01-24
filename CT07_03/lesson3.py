@@ -15,12 +15,9 @@ while ans != True:
     else:
         print("u are wrong.")
 
-riddleqans = ["what is 1+1?", "2"]
-ans = input(riddleqans[0])
-while ans != True:
-    x = input(riddleqans[0])
-    if x == riddleqans[1]:
-        break
-    else:
-        print("u are wrong.")
 
+riddle_ans = "phone"
+user_ans = ""
+
+while user_ans != riddle_ans:
+    user_ans = input("You answer me, although I never ask you questions. What am I? ")
