@@ -117,6 +117,6 @@ if ttaken < 60:
     print (f"you took {ttaken} seconds")
 else:
     mins = math.floor(ttaken/60)
-    secs = ttaken/60 - mins
+    secs = round((ttaken/60 - mins) * 60, 2)
     print(f"you took {mins} minuetes {secs} secconds")
     
