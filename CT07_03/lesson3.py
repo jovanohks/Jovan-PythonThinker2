@@ -58,4 +58,4 @@ import time
 #     savings += float(input("How much did you save? (in dollars)"))
 #     print(f"You have ${savings}")
 # print("Good job!")
-
+from random import randint
