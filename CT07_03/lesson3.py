@@ -81,6 +81,7 @@ from random import randint
 #     "GO AND SEE MS TAN FOR REMEDIAL"
 
 # Time the quiz and tell them how long it took to finish the quiz in minutes and seconds, for those who passed only (e.g 1 min 40 seconds)
+# If time taken < 1 minute, just print the seconds. (e.g You took 30 seconds)
 
 import time
 
