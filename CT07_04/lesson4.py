@@ -47,3 +47,4 @@ planets[3] = "hersheys"
 print(planets[3])
 planets.append("Pluto")
 planets.insert(4,"lalaland")
+print(planets)
