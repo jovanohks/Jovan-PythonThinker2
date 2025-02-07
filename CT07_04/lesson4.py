@@ -134,4 +134,4 @@ order = input("what do u want?")
 if order in items:
     print("yes we sell that")
 else:
-    print("sorry,")
+    print("sorry,we dont have that.")
