@@ -95,14 +95,14 @@
 #    "I would like to visit Japan"
 #    ...
 
-countries =[]
-while True:
-    ans = str(input("what country do u want to visit?"))
-    if ans == "end":
-        break
-    countries.append(ans)
-for i in countries:
-    print(f"I wound like to visit {i}")
+# countries =[]
+# while True:
+#     ans = str(input("what country do u want to visit?"))
+#     if ans == "end":
+#         break
+#     countries.append(ans)
+# for i in countries:
+#     print(f"I wound like to visit {i}")
 
 
 ## Task 4: Restaurant Menu
