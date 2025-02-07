@@ -65,5 +65,5 @@ for i in planets:
     if i == "Earth":
         print(":this is my home")
     elif i =="hersheys":
-        
+        print(":i conquered this")
 
