@@ -63,7 +63,9 @@ print(planets)
 for i in planets:
     print(i,end=" ")
     if i == "Earth":
-        print(":this is my home")
+        print(": this is my home")
     elif i =="hersheys":
-        print(":i conquered this")
+        print(": i conquered this")
+    elif i == "Lalaland":
+        print(": I created this")
 
