@@ -46,5 +46,6 @@ planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune
 planets[3] = "hersheys"
 print(planets[3])
 planets.append("Pluto")
-planets.insert(4,"lalaland")
+planets.insert(3,"lalaland")
 print(planets)
+
