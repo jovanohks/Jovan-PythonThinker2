@@ -149,5 +149,5 @@ while True:
         print("sorry we dont have that")
     elif ans in items:
         order.append(ans)
-for i in countries:
+for i in order:
     print(f"you want {i}")
