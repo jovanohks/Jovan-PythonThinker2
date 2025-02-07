@@ -14,7 +14,7 @@ import time
 n = 10
 while n !=0:
     time.sleep(1)
-    print(f"{n},",end =" ")
+    print(f"{n},")
     n -=1
 else:
     print("happy new year!")
