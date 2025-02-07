@@ -94,13 +94,13 @@
 #    "I would like to visit Germany"
 #    "I would like to visit Japan"
 #    ...
-countrys =[]
+countries =[]
 ans =""
 while True:
     ans = str(input("what country do u want to visit?"))
     if ans == "end":
         break
-    countrys.append(ans)
-for i in country:
+    countries.append(ans)
+for i in countriey:
     print(f"I wound like to visit {i}")
 
