@@ -145,6 +145,8 @@ while True:
     ans = str(input("what do u want to order"))
     if ans == "end":
         break
+    elif  not ans in list:
+        break
     countries.append(ans)
 for i in countries:
     print(f"I wound like to visit {i}")
