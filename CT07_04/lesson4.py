@@ -26,4 +26,4 @@ else:
 # **Task 1a**:
 # Create a list of 8 planets in the solar system.
 # (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)
-planets =["Mercury"]
+planets =["Mercury", "Venus","Earth","Mars"]
