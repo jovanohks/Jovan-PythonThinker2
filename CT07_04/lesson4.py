@@ -95,7 +95,6 @@
 #    "I would like to visit Japan"
 #    ...
 countries =[]
-ans =""
 while True:
     ans = str(input("what country do u want to visit?"))
     if ans == "end":
