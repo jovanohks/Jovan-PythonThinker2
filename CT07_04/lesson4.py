@@ -61,5 +61,6 @@ print(planets)
 # 4. If name == "Lalaland", print
 #    "<planet name> : I created this"
 for i in planets:
-    print(i)
+    print(i,end="")
     
+
