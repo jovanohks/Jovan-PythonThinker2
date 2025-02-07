@@ -42,14 +42,14 @@
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
-planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
-planets[3] = "hersheys"
-print(planets[3])
-planets.append("Pluto")
-planets.insert(3,"Lalaland")
-print(planets)
-planets.pop(5)
-print(planets)
+# planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
+# planets[3] = "hersheys"
+# print(planets[3])
+# planets.append("Pluto")
+# planets.insert(3,"Lalaland")
+# print(planets)
+# planets.pop(5)
+# print(planets)
 
 # Task 2
 # 1. Write a for loop and print out all the names of the
@@ -60,6 +60,7 @@ print(planets)
 #    "<planet name> : I conquered this"
 # 4. If name == "Lalaland", print
 #    "<planet name> : I created this"
+
 # for i in planets:
 #     print(i,end=" ")
 #     if i == "Earth":
@@ -71,13 +72,25 @@ print(planets)
 #     else:
 #         print("")
 
-for planet in planets:
-    statement = planet
-    if planet == "Earth":
-        statement += ": this is my home"
-    elif planet =="hersheys":
-        statement += ": i conquered this"
-    elif planet == "Lalaland":
-        statement += ": I created this"
-    print(statement)
+# for planet in planets:
+#     statement = planet
+#     if planet == "Earth":
+#         statement += ": this is my home"
+#     elif planet =="hersheys":
+#         statement += ": i conquered this"
+#     elif planet == "Lalaland":
+#         statement += ": I created this"
+#     print(statement)
 
+## Task 3: Flight Round the Globe
+# Task: Write a program to keep track of the countries you
+# are visiting.
+
+# 1. Use a while loop to ask the user what country they
+#    would like to visit.
+# 2. Add the country into a list
+# 3. If the user types "end", exit the loop
+# 4. Print all the countries in the list in this format.
+#    "I would like to visit Germany"
+#    "I would like to visit Japan"
+#    ... 
