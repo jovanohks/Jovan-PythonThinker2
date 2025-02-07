@@ -126,7 +126,7 @@ for i in countries:
 # 3. else, say "Sorry, please go next door, bye."
 items =[]
 while True:
-    ans = str(input("what country do u want to visit?"))
+    ans = str(input("what food do you want to add?"))
     if ans == "end":
         break
     items.append(ans)
