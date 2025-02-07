@@ -124,7 +124,7 @@ for i in countries:
 # 2. If the food is in the list, say "Yes we sell that,
 #    please have a seat"
 # 3. else, say "Sorry, please go next door, bye."
-countries =[]
+items =[]
 while True:
     ans = str(input("what country do u want to visit?"))
     if ans == "end":
