@@ -102,5 +102,5 @@ while True:
         break
     country.append(ans)
 for i in country:
-    print
+    print(f"I wound like to visit {i}")
 
