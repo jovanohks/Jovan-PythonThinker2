@@ -130,5 +130,4 @@ while True:
     if ans == "end":
         break
     items.append(ans)
-for i in items:
-    print(f"I wound like to visit {i}")
+
