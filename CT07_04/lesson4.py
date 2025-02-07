@@ -95,8 +95,9 @@
 #    "I would like to visit Japan"
 #    ...
 ans =""
-while ans !="end":
+while True:
     ans = str(input("what country do u want to visit?"))
     if ans == "end":
         break
     country = country + str(ans)
+
