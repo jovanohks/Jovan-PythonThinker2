@@ -68,4 +68,6 @@ for i in planets:
         print(": i conquered this")
     elif i == "Lalaland":
         print(": I created this")
+    else:
+        print("")
 
