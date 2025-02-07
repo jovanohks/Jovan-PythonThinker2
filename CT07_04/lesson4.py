@@ -42,11 +42,11 @@
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
-planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
-planets[3] = "hersheys"
-print(planets[3])
-planets.append("Pluto")
-planets.insert(3,"lalaland")
-print(planets)
-planets.pop(4)
-print(planets)
+# planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
+# planets[3] = "hersheys"
+# print(planets[3])
+# planets.append("Pluto")
+# planets.insert(3,"lalaland")
+# print(planets)
+# planets.pop(5)
+# print(planets)
