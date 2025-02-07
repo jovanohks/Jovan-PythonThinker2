@@ -93,4 +93,7 @@
 # 4. Print all the countries in the list in this format.
 #    "I would like to visit Germany"
 #    "I would like to visit Japan"
-#    ... 
+#    ...
+
+while ans !="end":
+    country     
