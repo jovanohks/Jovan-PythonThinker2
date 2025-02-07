@@ -94,7 +94,7 @@
 #    "I would like to visit Germany"
 #    "I would like to visit Japan"
 #    ...
-
+ans =""
 while ans !="end":
+    ans = ""
     country = country + str(ans)
-        
