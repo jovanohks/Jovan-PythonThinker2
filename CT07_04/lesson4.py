@@ -63,6 +63,6 @@ print(planets)
 for i in planets:
     print(i,end=" ")
     if i == "Earth":
-        print
+        print(":this is my home")
     
 
