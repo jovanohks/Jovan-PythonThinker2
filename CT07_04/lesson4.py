@@ -42,4 +42,5 @@ else:
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
-planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
+planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"
+]
