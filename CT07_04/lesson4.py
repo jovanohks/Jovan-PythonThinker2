@@ -136,3 +136,15 @@ if order in items:
     print("yes we sell that")
 else:
     print("sorry,we dont have that.")
+
+
+
+
+countries =[]
+while True:
+    ans = str(input("what country do u want to visit?"))
+    if ans == "end":
+        break
+    countries.append(ans)
+for i in countries:
+    print(f"I wound like to visit {i}")
