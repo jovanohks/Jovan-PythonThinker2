@@ -150,4 +150,4 @@ while True:
     elif ans in items:
         order.append(ans)
 for i in countries:
-    print(f"you want")
+    print(f"you want {i}")
