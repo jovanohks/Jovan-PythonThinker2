@@ -126,7 +126,7 @@
 # 3. else, say "Sorry, we don't have that."
 items =[]
 while True:
-    ans = str(input("what food do you want to add?"))
+    ans = str(input("what food do you want to add? "))
     if ans == "end":
         break
     items.append(ans)
@@ -142,7 +142,7 @@ while True:
 
 order =[]
 while True:
-    ans = str(input("what do u want to order"))
+    ans = str(input("what do u want to order? "))
     if ans == "end":
         break
     elif  not ans in items:
