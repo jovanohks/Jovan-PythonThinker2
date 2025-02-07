@@ -123,7 +123,7 @@ for i in countries:
 #    would they like to eat?
 # 2. If the food is in the list, say "Yes we sell that,
 #    please have a seat"
-# 3. else, say "Sorry, please go next door, bye."
+# 3. else, say "Sorry, we don't have that."
 items =[]
 while True:
     ans = str(input("what food do you want to add?"))
@@ -133,3 +133,5 @@ while True:
 order = input("what do u want?")
 if order in items:
     print("yes we sell that")
+else:
+    print("sorry,")
