@@ -94,10 +94,12 @@
 #    "I would like to visit Germany"
 #    "I would like to visit Japan"
 #    ...
+country =[]
 ans =""
 while True:
     ans = str(input("what country do u want to visit?"))
     if ans == "end":
         break
-    country = country + str(ans)
+    country.append(ans)
+
 
