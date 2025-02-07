@@ -146,7 +146,7 @@ while True:
     if ans == "end":
         break
     elif  not ans in list:
-        break
+        print("sorry w")
     countries.append(ans)
 for i in countries:
     print(f"I wound like to visit {i}")
