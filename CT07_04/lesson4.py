@@ -129,6 +129,6 @@ while True:
     ans = str(input("what country do u want to visit?"))
     if ans == "end":
         break
-    countries.append(ans)
-for i in countries:
+    items.append(ans)
+for i in items:
     print(f"I wound like to visit {i}")
