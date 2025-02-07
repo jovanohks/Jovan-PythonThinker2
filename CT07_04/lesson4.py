@@ -145,8 +145,9 @@ while True:
     ans = str(input("what do u want to order"))
     if ans == "end":
         break
-    elif  not ans in order:
+    elif  not ans in items:
         print("sorry we dont have that")
-    order.append(ans)
+    elif ans in items:
+        order.append(ans)
 for i in countries:
-    print(f"I wound like to visit {i}")
+    print(f"you want")
