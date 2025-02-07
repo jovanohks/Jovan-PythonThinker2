@@ -101,5 +101,6 @@ while True:
     if ans == "end":
         break
     country.append(ans)
-
+for i in country:
+    print
 
