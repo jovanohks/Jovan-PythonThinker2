@@ -142,7 +142,7 @@ while True:
 
 order =[]
 while True:
-    ans = str(input("what country do u want to visit?"))
+    ans = str(input("what do u want to order"))
     if ans == "end":
         break
     countries.append(ans)
