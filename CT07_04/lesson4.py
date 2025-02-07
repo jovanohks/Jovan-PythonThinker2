@@ -71,3 +71,14 @@ for i in planets:
     else:
         print("")
 
+for planet in planets:
+    statement = planet
+    if planet == "Earth":
+        statement += ": this is my home"
+    elif planet =="hersheys":
+        statement += ": i conquered this"
+    elif planet == "Lalaland":
+        statement += ": I created this"
+    else:
+        print("")
+
