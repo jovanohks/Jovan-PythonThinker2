@@ -131,16 +131,16 @@ while True:
         break
     items.append(ans)
     
-order = input("what do u want?")
-if order in items:
-    print("yes we sell that")
-else:
-    print("sorry,we dont have that.")
+# order = input("what do u want?")
+# if order in items:
+#     print("yes we sell that")
+# else:
+#     print("sorry,we dont have that.")
 
 
 
 
-countries =[]
+order =[]
 while True:
     ans = str(input("what country do u want to visit?"))
     if ans == "end":
