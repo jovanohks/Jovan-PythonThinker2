@@ -97,4 +97,6 @@
 ans =""
 while ans !="end":
     ans = str(input("what country do u want to visit?"))
+    if ans == "end":
+        break
     country = country + str(ans)
