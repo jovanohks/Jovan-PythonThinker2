@@ -64,5 +64,6 @@ for i in planets:
     print(i,end=" ")
     if i == "Earth":
         print(":this is my home")
-    
+    elif i =="hersheys":
+        
 
