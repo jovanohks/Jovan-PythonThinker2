@@ -48,4 +48,4 @@ print(planets[3])
 planets.append("Pluto")
 planets.insert(3,"lalaland")
 print(planets)
-
+lists.pop()
