@@ -18,3 +18,11 @@ while n !=0:
     n -=1
 else:
     print("happy new year!")
+
+
+# ## Task 1: List of planets
+# **Task: Create a list of 8 planets in the solar system**
+
+# **Task 1a**:
+# Create a list of 8 planets in the solar system.
+# (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)
