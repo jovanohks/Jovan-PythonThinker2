@@ -60,16 +60,16 @@ print(planets)
 #    "<planet name> : I conquered this"
 # 4. If name == "Lalaland", print
 #    "<planet name> : I created this"
-for i in planets:
-    print(i,end=" ")
-    if i == "Earth":
-        print(": this is my home")
-    elif i =="hersheys":
-        print(": i conquered this")
-    elif i == "Lalaland":
-        print(": I created this")
-    else:
-        print("")
+# for i in planets:
+#     print(i,end=" ")
+#     if i == "Earth":
+#         print(": this is my home")
+#     elif i =="hersheys":
+#         print(": i conquered this")
+#     elif i == "Lalaland":
+#         print(": I created this")
+#     else:
+#         print("")
 
 for planet in planets:
     statement = planet
@@ -79,6 +79,5 @@ for planet in planets:
         statement += ": i conquered this"
     elif planet == "Lalaland":
         statement += ": I created this"
-    else:
-        print("")
+    print(statement)
 
