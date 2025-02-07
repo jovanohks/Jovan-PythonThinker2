@@ -130,4 +130,6 @@ while True:
     if ans == "end":
         break
     items.append(ans)
-order = 
+order = input("what do u want?")
+if order in items:
+    
