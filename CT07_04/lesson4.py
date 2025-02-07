@@ -130,6 +130,7 @@ while True:
     if ans == "end":
         break
     items.append(ans)
+    
 order = input("what do u want?")
 if order in items:
     print("yes we sell that")
