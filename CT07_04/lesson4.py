@@ -101,6 +101,6 @@ while True:
     if ans == "end":
         break
     countries.append(ans)
-for i in countriey:
+for i in countries:
     print(f"I wound like to visit {i}")
 
