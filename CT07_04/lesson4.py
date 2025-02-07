@@ -43,4 +43,4 @@ else:
 # **delete** Jupiter from the list
 
 planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
-planets[3] = MAR
+planets[3] = 
