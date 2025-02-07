@@ -10,14 +10,14 @@
 #    number
 
 # ---------------------------------------------------------------
-import time
-n = 10
-while n !=0:
-    time.sleep(1)
-    print(f"{n},")
-    n -=1
-else:
-    print("happy new year!")
+# import time
+# n = 10
+# while n !=0:
+#     time.sleep(1)
+#     print(f"{n},")
+#     n -=1
+# else:
+#     print("happy new year!")
 
 
 # ## Task 1: List of planets
