@@ -45,4 +45,4 @@ else:
 planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
 planets[3] = "hersheys"
 print(planets[3])
-planets.insert()
+planets.insert(10,"Pluto")
