@@ -42,11 +42,21 @@
 # You launched a war againts Jupiter and destroyed it,
 # **delete** Jupiter from the list
 
-# planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
-# planets[3] = "hersheys"
-# print(planets[3])
-# planets.append("Pluto")
-# planets.insert(3,"lalaland")
-# print(planets)
-# planets.pop(5)
-# print(planets)
+planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
+planets[3] = "hersheys"
+print(planets[3])
+planets.append("Pluto")
+planets.insert(3,"Lalaland")
+print(planets)
+planets.pop(5)
+print(planets)
+
+# Task 2
+# 1. Write a for loop and print out all the names of the
+#    planets
+# 2. If name == "Earth", print "<planet name> : this is
+#    my home"
+# 3. If name == "Mars" (or changed name), print
+#    "<planet name> : I conquered this"
+# 4. If name == "Lalaland", print
+#    "<planet name> : I created this"
