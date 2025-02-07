@@ -1,21 +1,12 @@
-print("Hello from lesson 4")
+# Lesson 4 - List Variables I
 
-import matplotlib.pyplot as plt
-import numpy as np
+## Recap 1: While Loop
+# Task: Code a New Year Countdown timer. 
+# Example: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, HAPPY NEW YEAR!
 
-plt.style.use('_mpl-gallery-nogrid')
+# 1. The countdown timer will count one by one and stop at 1.
+# 2. After 1, the program will say Happy New Year
+# 3. Use the time library to pause 1 seconds between each
+#    number
 
-# make a stream function:
-X, Y = np.meshgrid(np.linspace(-3, 3, 256), np.linspace(-3, 3, 256))
-Z = (1 - X/2 + X**5 + Y**3) * np.exp(-X**2 - Y**2)
-# make U and V out of the streamfunction:
-V = np.diff(Z[1:, :], axis=1)
-U = -np.diff(Z[:, 1:], axis=0)
-
-# plot:
-fig, ax = plt.subplots()
-
-ax.streamplot(X[1:, 1:], Y[1:, 1:], U, V)
-
-plt.show()
-
+# ---------------------------------------------------------------
