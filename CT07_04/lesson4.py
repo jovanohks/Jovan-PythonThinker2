@@ -43,4 +43,5 @@ else:
 # **delete** Jupiter from the list
 
 planets =["Mercury", "Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"]
-planets[3] = 
+planets[3] = "sram"
+print(planets[3])
