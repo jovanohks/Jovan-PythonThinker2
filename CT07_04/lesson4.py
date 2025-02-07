@@ -96,4 +96,5 @@
 #    ...
 
 while ans !="end":
-    country     
+    country = country + str(ans)
+        
