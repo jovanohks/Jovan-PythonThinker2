@@ -14,13 +14,23 @@
 # **Recap 1d**:
 # Write a for loop to say all the food items in your list
 
-favouriteFood=["dino minosaur","wanton mee","chicken rice with wasabi","fishball noodles","fried rice"]
+# favouriteFood=["dino minosaur","wanton mee","chicken rice with wasabi","fishball noodles","fried rice"]
 # favouriteFood.pop(2)
 # favouriteFood.append("sushi")
 # favouriteFood.remove("chicken rice with wasabi")
-del(favouriteFood[2])
-favouriteFood.insert(4,"sushi")
-for food in favouriteFood:
-    print(food)
+# del(favouriteFood[2])
+# favouriteFood.insert(4,"sushi")
+# for food in favouriteFood:
+#     print(food)
+# for i in range
 
 
+## Task 1: List of 100 numbers 
+# You are preparing for an upcoming lucky draw session at your
+# school. You have been tasked to create a program that will pick
+# 100 lucky winners.
+
+# By importing the 'random' library and using 'random.randint()',
+# create a program to create 100 random numbers in a list
+# 1. Use a loop to add 100 random numbers into your list.
+# 2. Each number added range between 1 to 1000
