@@ -36,7 +36,7 @@
 # 2. Each number added range between 1 to 1000
 lucky =[]
 from random import randint
-for i in range(0,100):
+for i in range(100):
     lucky.append(randint(1,1000))
 print(lucky)
 
