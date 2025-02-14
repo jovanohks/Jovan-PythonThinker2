@@ -88,4 +88,3 @@ print(score)
 print(min(score))
 print(max(score))
 import numpy
-print(numpy.average(score))
