@@ -151,8 +151,8 @@ if powers[pokemons.index(p1)]-powers[pokemons.index(p2)] >0:
 elif powers[pokemons.index(p1)]-powers[pokemons.index(p2)] <0:
     print(f"{p1} loses!")
     print(f"{p2} wins!")
-elif powers[pokemons.index(p1)]-powers[pokemons.index(p2)] <0:
+elif powers[pokemons.index(p1)]-powers[pokemons.index(p2)] == 0:
     print(f"{p1} loses!")
     print(f"{p2} wins!")
 
-# what about if they are equally strong ???????????? o.O
+# what about if they are equally strong ???????????? o.O o.
