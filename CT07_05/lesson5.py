@@ -15,4 +15,4 @@
 # Write a for loop to say all the food items in your list
 
 print("hi")
-favouritefood=["dino minosaur","wanton mee"]
+favouritefood=["dino minosaur","wanton mee",]
