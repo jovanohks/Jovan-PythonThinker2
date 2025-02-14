@@ -143,4 +143,5 @@ powers = [
 import random
 p1=random.choice(pokemons)
 p2=random.choice(pokemons)
-
+if powers[pokemons.index(p1)]-powers[pokemons.index(p2)] >0:
+    print()
