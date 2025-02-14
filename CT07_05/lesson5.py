@@ -37,7 +37,7 @@
 lucky =[]
 from random import randint
 for i in range(100):
-    x = random.randint
+    x = random.randint(1,1000)
     lucky.append(randint(1,1000))
 print(lucky)
 
