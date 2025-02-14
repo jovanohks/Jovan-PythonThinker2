@@ -61,7 +61,10 @@
 num =[]
 lucky =[]
 from random import randint
-
+while not len(lucky) >100:
+    x= random.randint(1,1000)
+    if not x in lucky:
+        
 
 print(lucky)
 
