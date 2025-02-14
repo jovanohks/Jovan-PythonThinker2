@@ -67,4 +67,4 @@ while len(lucky) <= 100:
     
 
 print(lucky)
-mode()
+
