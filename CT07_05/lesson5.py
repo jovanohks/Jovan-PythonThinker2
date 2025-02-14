@@ -38,6 +38,6 @@ lucky =[]
 from random import randint
 for i in range(1,100):
     lucky.append(randint(1,1000))
-print(lucky)
+# print(lucky)
 
 print([randint(1, 1000) for _ in range(100)])
