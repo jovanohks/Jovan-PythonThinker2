@@ -148,9 +148,10 @@ while p2 == p1:
 if powers[pokemons.index(p1)] > powers[pokemons.index(p2)]:
     print(f"{p1} wins!")
     print(f"{p2} loses!")
-elif powers[pokemons.index(p1)]< powers[pokemons.index(p2)]:
+elif powers[pokemons.index(p1)] < powers[pokemons.index(p2)]:
     print(f"{p1} loses!")
     print(f"{p2} wins!")
+    
 # elif powers[pokemons.index(p1)]-powers[pokemons.index(p2)] == 0:
 else:
     print(f"{p1} ties with {p2}!")
