@@ -111,6 +111,6 @@ heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 # of an item
 
 "xxx is the tallest at yyy cm"
-"xxx is the tallest at yyy cm"
-print(namelist[heightlist.index(max(heightlist))])
+"www is the shortest at zzz cm"
+print(namelist[heightlist.index(max(heightlist))]+)
 print(namelist[heightlist.index(min(heightlist))])
