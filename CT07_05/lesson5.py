@@ -83,5 +83,4 @@ score =[]
 from random import randint
 while len(score) <= 100:
     x= randint(1,100)
-    if not x in lucky:
-        lucky.append(x)
+    score.append(x)
