@@ -60,7 +60,7 @@
 
 lucky =[]
 from random import randint
-while len(lucky) < 101:
+while len(lucky) <= 100:
     x= randint(1,1000)
     if not x in lucky:
         lucky.append(x)
