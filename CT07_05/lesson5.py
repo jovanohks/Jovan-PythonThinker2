@@ -79,9 +79,9 @@
 # 3. Using the 'sum()' and 'len()' function, calculate the
 #    average score.
 
-lucky =[]
+score =[]
 from random import randint
 while len(lucky) <= 100:
-    x= randint(1,1000)
+    x= randint(1,100)
     if not x in lucky:
         lucky.append(x)
