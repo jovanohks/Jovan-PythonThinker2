@@ -113,4 +113,4 @@ heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 "xxx is the tallest at yyy cm"
 "www is the shortest at zzz cm"
 print(namelist[heightlist.index(max(heightlist))]+" is the tallest at "+str(heightlist[heightlist.index(max(heightlist))])+" cm")
-print(namelist[heightlist.index(max(heightlist))]+" is the tallest at "+str(heightlist[heightlist.index(max(heightlist))])+" cm")
+print(namelist[heightlist.index(min(heightlist))]+" is the tallest at "+str(heightlist[heightlist.index(min(heightlist))])+" cm")
