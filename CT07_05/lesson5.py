@@ -85,3 +85,5 @@ while len(score) <= 100:
     x= randint(1,100)
     score.append(x)
 print(score)
+print(min(score))
+print(max(score))
