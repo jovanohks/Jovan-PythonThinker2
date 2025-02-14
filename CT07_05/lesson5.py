@@ -69,12 +69,13 @@
 # print(lucky)
 
 ## Task 3: Score Taker
-Imagine the list that you have created in Task 2 represent the
-score of a 100 students.
+# Imagine the list that you have created in Task 2 represent the
+# score of a 100 students.
 
-Find the maximum, minimum and average from the list.
+# Find the maximum, minimum and average from the list.
 
-1. Using the 'max()' function, find the maximum score.
-2. Using the 'min()' function, find the minimum score.
-3. Using the 'sum()' and 'len()' function, calculate the
-   average score.
+# 1. Using the 'max()' function, find the maximum score.
+# 2. Using the 'min()' function, find the minimum score.
+# 3. Using the 'sum()' and 'len()' function, calculate the
+#    average score.
+
