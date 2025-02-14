@@ -15,8 +15,9 @@
 # Write a for loop to say all the food items in your list
 
 favouriteFood=["dino minosaur","wanton mee","chicken rice with wasabi","fishball noodles","fried rice"]
-favouriteFood.pop(2)
-favouriteFood.append("sushi")
-for i in favouriteFood:
-    print(i)
+# favouriteFood.pop(2)
+# favouriteFood.append("sushi")
+
+for food in favouriteFood:
+    print(food)
 
