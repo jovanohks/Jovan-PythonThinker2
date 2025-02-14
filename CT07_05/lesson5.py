@@ -34,14 +34,27 @@
 # create a program to create 100 random numbers in a list
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
+
+## Task 2: List of 100 unique numbers
+# The program you have created from the previous task will
+# sometimes generate duplicate numbers. Modify your program so
+# that the 100 numbers generated are all unique.
+
+# Modify your program from the previous task to create 100 random
+# unique numbers in a list.
+# 1. Use a loop to add 100 random numbers into your list.
+# 2. Each number added range between 1 to 1000
+# 3. Ensure that all the numbers are unique
+# 4. Print the list of 100 unique numbers created
+
+# Hint: Use a while loop to check if the number already exists in
+# the loop
+
 lucky =[]
 from random import randint
 for i in range(100):
     x = random.randint(1,1000)
-    if not x in num:
-        lucky.append(randint(x))
-    else:
-        
+    lucky.append(randint(1,1000))
 print(lucky)
 
 print([randint(1, 1000) for x in range(100)])
