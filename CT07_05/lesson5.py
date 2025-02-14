@@ -81,11 +81,10 @@
 
 score =[]
 from random import randint
-while len(score) <= 100:
+while len(score) <= 1000:
     x= randint(1,100)
     score.append(x)
 print(score)
 print(min(score))
 print(max(score))
-import numpy
 print(sum(score)/len(score))
