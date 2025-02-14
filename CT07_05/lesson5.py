@@ -160,4 +160,7 @@ else:
 if powers[pokemons.index(p1)] == powers[pokemons.index(p2)]:
     print(f"{p1} ties with {p2}!")
 else:
-    winner, loser = p1, p2 if powers[pokemons.index(p1)] > powers[pokemons.index(p2)] else p
+    winner, loser = p1, p2 if powers[pokemons.index(p1)] > powers[pokemons.index(p2)] else p2, p1
+    print(f"{winner} wins!")
+    print(f"{loser} loses!")
+    
