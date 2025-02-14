@@ -38,4 +38,4 @@
 import random
 for i in range(1,100):
     x = random.randint(1,1000)
-    
+    lucky.append(x)
