@@ -79,12 +79,33 @@
 # 3. Using the 'sum()' and 'len()' function, calculate the
 #    average score.
 
-score =[]
-from random import randint
-while len(score) <= 250000:
-    x= randint(1,100)
-    score.append(x)
-print(score)
-print(min(score))
-print(max(score))
-print(sum(score)/len(score))
+# score =[]
+# from random import randint
+# while len(score) <= 250000:
+#     x= randint(1,100)
+#     score.append(x)
+# print(score)
+# print(min(score))
+# print(max(score))
+# print(sum(score)/len(score))
+
+## Task 4: Who is the tallest?
+# Task: You are given 2 lists, 
+# **namelist** contains a list of students in your class
+# **heightlist** contains a list of the corresponding student's
+#                height
+
+# 1. Determine who is the tallest in class, and what is his/ her
+#    name
+# 2. Determine who is the shortest in class, and what is his/ her
+#    name
+
+# Sample Data (Copy + paste the below code):
+# namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
+#             "Sophia", "Lucas", "Mia", "Aiden"
+#             ]
+# heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
+
+# Hint:
+# use .index("value of something in the list") to find the index
+# of an item
