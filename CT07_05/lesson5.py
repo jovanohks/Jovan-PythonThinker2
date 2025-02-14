@@ -57,7 +57,7 @@
 # print(lucky)
 
 # print([randint(1, 1000) for x in range(100)])
-
+import numpy
 lucky =[]
 from random import randint
 while len(lucky) <= 100:
