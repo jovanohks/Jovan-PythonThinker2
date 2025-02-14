@@ -22,5 +22,5 @@ del(favouriteFood[2])
 favouriteFood.insert(10,"sushi")
 for food in favouriteFood:
     print(food)
-print(favouriteFood)
+
 
