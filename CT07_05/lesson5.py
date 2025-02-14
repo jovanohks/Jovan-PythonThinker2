@@ -16,7 +16,7 @@
 
 print("hi")
 favouriteFood=["dino minosaur","wanton mee","chicken rice with wasabi","fishball noodles","fried rice"]
-favouriteFood.
+favouriteFood.remove("")
 
 
 FavouriteFood # PascalCase
