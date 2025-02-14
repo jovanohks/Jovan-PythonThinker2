@@ -81,7 +81,7 @@
 
 score =[]
 from random import randint
-while len(score) <= 100000:
+while len(score) <= 1000000:
     x= randint(1,100)
     score.append(x)
 print(score)
