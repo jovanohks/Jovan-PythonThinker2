@@ -101,10 +101,10 @@
 #    name
 
 # Sample Data (Copy + paste the below code):
-# namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
-#             "Sophia", "Lucas", "Mia", "Aiden"
-#             ]
-# heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
+namelist = ["Olivia", "Liam", "Emma", "Noah", "Ava", "Ethan",
+            "Sophia", "Lucas", "Mia", "Aiden"
+            ]
+heightlist = [160, 165, 158, 170, 162, 168, 159, 172, 164, 166]
 
 # Hint:
 # use .index("value of something in the list") to find the index
