@@ -47,8 +47,7 @@
 # 3. Ensure that all the numbers are unique
 # 4. Print the list of 100 unique numbers created
 
-# Hint: Use a while loop to check if the number already exists in
-# the loop
+# Hint: YOU WILL NEED A WHILE LOOP
 
 # lucky =[]
 # from random import randint
