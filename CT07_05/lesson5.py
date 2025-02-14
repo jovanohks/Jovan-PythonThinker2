@@ -58,11 +58,10 @@
 
 # print([randint(1, 1000) for x in range(100)])
 
-
+num =[]
 lucky =[]
 from random import randint
-for i in range(100):
-    x = random.randint(1,1000)
-    lucky.append(randint(1,1000))
+
+
 print(lucky)
 
