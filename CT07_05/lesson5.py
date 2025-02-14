@@ -82,7 +82,7 @@
 score =[]
 from random import randint
 while len(score) <= 100:
-    x= randint(50,100)
+    x= randint(0,101)
     score.append(x)
 print(score)
 print(min(score))
