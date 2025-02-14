@@ -57,14 +57,24 @@
 # print(lucky)
 
 # print([randint(1, 1000) for x in range(100)])
-import numpy
-lucky =[]
-from random import randint
-while len(lucky) <= 100:
-    x= randint(1,1000)
-    if not x in lucky:
-        lucky.append(x)
+# import numpy
+# lucky =[]
+# from random import randint
+# while len(lucky) <= 100:
+#     x= randint(1,1000)
+#     if not x in lucky:
+#         lucky.append(x)
     
 
-print(lucky)
+# print(lucky)
 
+## Task 3: Score Taker
+Imagine the list that you have created in Task 2 represent the
+score of a 100 students.
+
+Find the maximum, minimum and average from the list.
+
+1. Using the 'max()' function, find the maximum score.
+2. Using the 'min()' function, find the minimum score.
+3. Using the 'sum()' and 'len()' function, calculate the
+   average score.
