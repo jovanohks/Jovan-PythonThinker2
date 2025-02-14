@@ -14,7 +14,6 @@
 # **Recap 1d**:
 # Write a for loop to say all the food items in your list
 
-print("hi")
 favouriteFood=["dino minosaur","wanton mee","chicken rice with wasabi","fishball noodles","fried rice"]
 favouriteFood.pop(2)
 favouriteFood.append("sushi")
