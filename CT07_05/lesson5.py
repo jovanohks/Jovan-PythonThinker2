@@ -140,5 +140,6 @@ powers = [
     85, 65, 134, 130, 110,
     50, 125, 65, 110, 83
 ]
-
+import random
 p1=random.choice(pokemons)
+
