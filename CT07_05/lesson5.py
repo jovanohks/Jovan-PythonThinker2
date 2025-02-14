@@ -34,8 +34,9 @@
 # create a program to create 100 random numbers in a list
 # 1. Use a loop to add 100 random numbers into your list.
 # 2. Each number added range between 1 to 1000
-
+lucky =[]
 import random
 for i in range(1,100):
     x = random.randint(1,1000)
     lucky.append(x)
+    
