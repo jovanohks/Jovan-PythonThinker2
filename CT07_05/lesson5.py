@@ -142,4 +142,4 @@ powers = [
 ]
 import random
 p1=random.choice(pokemons)
-
+p2=
