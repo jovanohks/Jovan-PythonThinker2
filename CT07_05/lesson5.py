@@ -156,4 +156,6 @@ elif powers[pokemons.index(p1)] < powers[pokemons.index(p2)]:
 else:
     print(f"{p1} ties with {p2}!")
 
-# 
+
+if powers[pokemons.index(p1)] == powers[pokemons.index(p2)]:
+    print(f"{p1} ties with {p2}!")
