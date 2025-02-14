@@ -17,5 +17,7 @@
 print("hi")
 favouriteFood=["dino minosaur","wanton mee","chicken rice with wasabi","fishball noodles","fried rice"]
 favouriteFood.pop(2)
-favouriteFood.append("")
+favouriteFood.append("sushi")
+for i in favouriteFood:
+    print(i)
 
