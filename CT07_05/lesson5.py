@@ -40,4 +40,4 @@ for i in range(1,100):
     lucky.append(randint(1,1000))
 print(lucky)
 
-print([num for num in range(100)])
+print([randint(1, 1000) for _ in range(100)])
