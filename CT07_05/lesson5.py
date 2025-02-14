@@ -87,3 +87,4 @@ while len(score) <= 100:
 print(score)
 print(min(score))
 print(max(score))
+import numpy
