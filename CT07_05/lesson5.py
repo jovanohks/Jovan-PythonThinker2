@@ -2,7 +2,9 @@
 
 ## Recap 1: Favourite Food List
 # **Recap 1a**:
-# Create a list of 5 food that you like to eat
+# Create a list of 5 foods that you like to eat
+
+
 
 # **Recap 1b**:
 # You no longer like to eat the 3rd item on your list,
