@@ -18,7 +18,7 @@ favouriteFood=["dino minosaur","wanton mee","chicken rice with wasabi","fishball
 # favouriteFood.pop(2)
 # favouriteFood.append("sushi")
 favouriteFood.remove("chicken rice with wasabi")
-favourite
+favouriteFood.insert()
 for food in favouriteFood:
     print(food)
 
