@@ -50,6 +50,16 @@
 # Hint: Use a while loop to check if the number already exists in
 # the loop
 
+# lucky =[]
+# from random import randint
+# for i in range(100):
+#     x = random.randint(1,1000)
+#     lucky.append(randint(1,1000))
+# print(lucky)
+
+# print([randint(1, 1000) for x in range(100)])
+
+
 lucky =[]
 from random import randint
 for i in range(100):
@@ -57,14 +67,3 @@ for i in range(100):
     lucky.append(randint(1,1000))
 print(lucky)
 
-print([randint(1, 1000) for x in range(100)])
-
-
-lucky =[]
-from random import randint
-for i in range(100):
-    x = random.randint(1,1000)
-    lucky.append(randint(1,1000))
-print(lucky)
-
-print([randint(1, 1000) for x in range(100)])
