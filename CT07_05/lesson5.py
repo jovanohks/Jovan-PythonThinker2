@@ -4,8 +4,6 @@
 # **Recap 1a**:
 # Create a list of 5 foods that you like to eat
 
-
-
 # **Recap 1b**:
 # You no longer like to eat the 3rd item on your list,
 # delete it
@@ -17,4 +15,4 @@
 # Write a for loop to say all the food items in your list
 
 print("hi")
-
+favouritefood=["dino minosaur",]
