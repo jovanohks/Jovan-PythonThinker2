@@ -145,7 +145,7 @@ p1=random.choice(pokemons)
 p2=random.choice(pokemons)
 if powers[pokemons.index(p1)]-powers[pokemons.index(p2)] >0:
     print(f"{p1} wins!")
-    print(f"{p2} loses")
+    print(f"{p2} loses!")
 elif powers[pokemons.index(p1)]-powers[pokemons.index(p2)] <0:
-    print(f"{p1} wins!")
-    print(f"{p2} loses")
+    print(f"{p1} loses!")
+    print(f"{p2} wins!")
