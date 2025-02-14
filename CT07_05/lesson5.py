@@ -64,7 +64,8 @@ from random import randint
 while not len(lucky) >100:
     x= random.randint(1,1000)
     if not x in lucky:
-        
+        lucky.append(x)
+    
 
 print(lucky)
 
