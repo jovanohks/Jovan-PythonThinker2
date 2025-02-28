@@ -43,3 +43,4 @@ list2 = ["Durian", "Elderberry", "Figs"]
 print(list1+list2)
 
 nothing = list1+list2
+print(nothing)
