@@ -93,4 +93,5 @@ common=[]
 # 3. Print the common elements
 for i in list1:
     if i in list2:
-        
+        common.append(i)
+print(common)
