@@ -59,8 +59,8 @@
 # Split the given list at the specified index:
 
 fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-index = 3
+index = 3 # <- USE THE INDEX
 
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting SUBLISTS. I want 2 lists! i.e a left and a right list
-print(fruits[0:3],fruits[3:])
+print(fruits[:3],fruits[3:])
