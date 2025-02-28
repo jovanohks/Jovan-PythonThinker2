@@ -27,3 +27,14 @@ for student in students: # what is the "i" variable used for, stop messing up my
     print("Name: ",name)
     print("Phone number: ",number)
     print("CCA: ",cca)
+
+    
+## Task 1: Introduction to List Merging
+# You are given 2 lists of fruits. Merge them into 1 list and
+# print the result:
+
+list1 = ["Apple", "Banana", "Cherry"]
+list2 = ["Durian", "Elderberry", "Figs"]
+
+# 1. Use the + operator to combine the lists.
+# 2. Print the combined list.
