@@ -15,18 +15,18 @@
 #    Name: James
 #    Phone number: 85726845
 #    CCA: Hockey
-students=[]
-student1 = ["John", 98453126, "Hockey"]
-student2 = ["Adam", 93029102, "Soccer"]
-student3 = ["Sylvia", 87894032, "Dance"]
-student.append(student1)
-student.append(student2)
-student.append(student3)
-for student in students: # what is the "i" variable used for, stop messing up my very good variable names.
-    name , number , cca = student
-    print("Name: ",name)
-    print("Phone number: ",number)
-    print("CCA: ",cca)
+# students=[]
+# student1 = ["John", 98453126, "Hockey"]
+# student2 = ["Adam", 93029102, "Soccer"]
+# student3 = ["Sylvia", 87894032, "Dance"]
+# student.append(student1)
+# student.append(student2)
+# student.append(student3)
+# for student in students: # what is the "i" variable used for, stop messing up my very good variable names.
+#     name , number , cca = student
+#     print("Name: ",name)
+#     print("Phone number: ",number)
+#     print("CCA: ",cca)
 
     
 ## Task 1: Introduction to List Merging
