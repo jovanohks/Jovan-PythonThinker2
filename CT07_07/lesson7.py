@@ -148,7 +148,5 @@ nested_list = [[1, 2], [3, 4], [5, 6, 7]]
 # 3. Print the flattened list.
 flat_list = []
 for i in nested_list:
-    num1,num2 = i
-    flat_list.append(num1)
-    flat_list.append(num2)
-print(flat_list)
+    for x in i:
+        flat
