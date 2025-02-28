@@ -167,5 +167,5 @@ sublist=[]
 for i in range(0,len(students),size):
     sublist.append(students[size-3:size])
     size=size+3
-
-print(sublist)
+for i in sublist:
+    print(i)
