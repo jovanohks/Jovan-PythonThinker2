@@ -87,7 +87,7 @@
 
 list1 = ["Apple", "Banana", "Cherry", "Durian"]
 list2 = ["Cherry", "Durian", "Elderberry", "Figs"]
-
-1. Create an empty list named 'common'
-2. Using 'for' loops, append common elements into 'common'
-3. Print the common elements
+common=[]
+# 1. Create an empty list named 'common'
+# 2. Using 'for' loops, append common elements into 'common'
+# 3. Print the common elements
