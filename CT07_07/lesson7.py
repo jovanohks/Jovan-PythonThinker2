@@ -109,4 +109,6 @@ list2 = ["Cherry", "Durian", "Durian", "Figs"]
 # 3. Print the unique elements
 for i in list1:
     if i in list2:
-        u
+        unique.append(i)
+
+print()
