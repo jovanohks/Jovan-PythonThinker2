@@ -91,3 +91,6 @@ common=[]
 # 1. Create an empty list named 'common'
 # 2. Using 'for' loops, append common elements into 'common'
 # 3. Print the common elements
+for i in list1:
+    if i in list2:
+        
