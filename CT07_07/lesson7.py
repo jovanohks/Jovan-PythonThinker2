@@ -110,7 +110,7 @@ list2 = ["Cherry", "Durian", "Durian", "Figs"]
 for i in list1:
     if i not in list2:
         unique.append(i)
-for i in list1:
-    if i not in list2:
+for i in list2:
+    if i not in list1:
         unique.append(i)
-print()
+print(unique)
