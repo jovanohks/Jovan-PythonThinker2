@@ -140,7 +140,7 @@
 # are each seated in a pair. However, you want to unpack
 # the nested lists in order to have a list of all students.
 
-nested_list = [[1, 2], [3, 4], [5, 6]]
+nested_list = [[1, 2], [3, 4], [5, 6, 7]]
 
 # 1. Create an empty list named 'flat_list'
 # 2. Loop through each sublist and append each element to the
