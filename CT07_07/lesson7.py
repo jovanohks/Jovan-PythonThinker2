@@ -40,7 +40,7 @@ list2 = ["Durian", "Elderberry", "Figs"]
 # 2. Print the combined list. 
 
 # Use another variable pls
-print(list1+list2)
+
  #those are fruits
-vegetables = list1+list2
-print(vegetables)
+fruits = list1+list2
+print(fruits)
