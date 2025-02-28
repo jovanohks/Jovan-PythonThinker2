@@ -22,3 +22,5 @@ student3 = ["Sylvia", 87894032, "Dance"]
 student.append(student1)
 student.append(student2)
 student.append(student3)
+for i in student:
+    name,
