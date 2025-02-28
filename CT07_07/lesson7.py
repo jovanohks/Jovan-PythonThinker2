@@ -62,5 +62,5 @@ fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 index = 3
 
 # 1. Use slicing to split the list at the provided index.
-# 2. Print the resulting sublists.
+# 2. Print the resulting SUBLISTS. I want 2 lists! i.e a left and a right list
 print(fruits[3:])
