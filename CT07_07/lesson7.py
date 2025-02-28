@@ -152,6 +152,7 @@
 #         flat_list.append(x)
 # print(flat_list)
 
+## Task 9: Partitioning a List into Smaller Lists
 # You have been tasked to divide a class of 9 students
 # into groups of 3.
 
