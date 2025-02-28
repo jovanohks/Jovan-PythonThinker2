@@ -164,4 +164,5 @@ size = 3
 
 # 1. Use a loop to create sub-lists of the specified size.
 # 2. Print the sub-lists.
-for i in range(0,len(students),3)
+for i in range(0,len(students),3):
+    print(i)
