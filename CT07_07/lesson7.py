@@ -20,4 +20,5 @@ student1 = ["John", 98453126, "Hockey"]
 student2 = ["Adam", 93029102, "Soccer"]
 student3 = ["Sylvia", 87894032, "Dance"]
 student.append(student1)
-student.append()
+student.append(student2)
+student.append(student3)
