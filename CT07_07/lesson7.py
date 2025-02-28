@@ -132,4 +132,4 @@ nums=list1+list2
 for i in nums:
     if i %2 == 0:
         even.append(i)
-print(even)
+print(even) 
