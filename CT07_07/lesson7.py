@@ -128,3 +128,7 @@ even=[]
 # 1. Create an empty list named 'even'
 # 2. Using 'for' loops, append even elements into 'even'
 # 3. Print the new list
+hello=list1+list2
+for i in hello:
+    if i %2 == 0:
+        
