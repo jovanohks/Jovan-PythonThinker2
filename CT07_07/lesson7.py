@@ -22,7 +22,7 @@ student3 = ["Sylvia", 87894032, "Dance"]
 student.append(student1)
 student.append(student2)
 student.append(student3)
-for student in students: # what is the "i" variable used for
+for student in students: # what is the "i" variable used for, stop messing up my very good variable names.
     name , number , cca = student
     print("Name: ",name)
     print("Phone number: ",number)
