@@ -52,3 +52,4 @@ list2 = [6.15, 5.45, 4.20]
 # 1. Merge the lists using the + operator.
 # 2. Use the sorted() function to sort the combined list.
 # 3. Print the sorted list.
+sorted(list1+list2)
