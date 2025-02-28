@@ -24,6 +24,6 @@ student.append(student2)
 student.append(student3)
 for nothing in student: # what is the "i" variable used for
     name , number , cca = nothing
-    print(name)
-    print(number)
+    print("Name: ",name)
+    print("Phone number: ",number)
     print(cca)
