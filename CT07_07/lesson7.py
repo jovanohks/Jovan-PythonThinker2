@@ -39,5 +39,7 @@ list2 = ["Durian", "Elderberry", "Figs"]
 # 1. Use the + operator to combine the lists.
 # 2. Print the combined list. 
 
-# Use 
-print(list1+list2) 
+# Use another variable pls
+print(list1+list2)
+
+list
