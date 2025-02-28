@@ -78,4 +78,4 @@ fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
 # 2. Split the list into 2 halves using slicing.
 # 3. Print both halves.
 hello = (len(fruits)//2)
-print(fruits[hello:],fruits)
+print(fruits[hello:],fruits[:hello])
