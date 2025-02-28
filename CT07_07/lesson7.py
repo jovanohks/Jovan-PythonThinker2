@@ -58,9 +58,22 @@
 # You are required to divide a basket of fruits.
 # Split the given list at the specified index:
 
-fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
-index = 3 # <- USE THE INDEX
+# fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+# index = 3 # <- USE THE INDEX
 
 # 1. Use slicing to split the list at the provided index.
 # 2. Print the resulting SUBLISTS. I want 2 lists! i.e a left and a right list
-print(fruits[:index],fruits[index:])
+# print(fruits[:index],fruits[index:])
+
+
+
+## Task 4: Splitting a List in Half
+# You have been tasked to divide the basket of fruits into
+# 2 equal halves. Given a list of even length, split it
+# into 2 equal halves.
+
+fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Figs"]
+
+# 1. Find the midpoint of the list.
+# 2. Split the list into 2 halves using slicing.
+# 3. Print both halves.
