@@ -25,4 +25,6 @@ student.append(student3)
 for i in student:
     name , number , cca = something
     for nothing in student:
-        print(name) 
+        print(name)
+        print(number)
+        print(cca) 
