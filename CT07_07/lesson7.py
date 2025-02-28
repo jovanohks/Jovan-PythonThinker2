@@ -122,14 +122,27 @@
 # merge the 2 lists, including only the elements that are
 # even from both.
 
-list1 = [1, 2, 3, 4]
-list2 = [5, 6, 7, 8]
-even=[]
+# list1 = [1, 2, 3, 4]
+# list2 = [5, 6, 7, 8]
+# even=[]
 # 1. Create an empty list named 'even'
 # 2. Using 'for' loops, append even elements into 'even'
 # 3. Print the new list
-nums=list1+list2
-for i in nums:
-    if i %2 == 0:
-        even.append(i)
-print(even) 
+# nums=list1+list2
+# for i in nums:
+#     if i %2 == 0:
+#         even.append(i)
+# print(even) 
+
+
+## Task 8: Nested List Splitting
+# You are given a nested list of 3 groups of students that
+# are each seated in a pair. However, you want to unpack
+# the nested lists in order to have a list of all students.
+
+nested_list = [[1, 2], [3, 4], [5, 6]]
+
+# 1. Create an empty list named 'flat_list'
+# 2. Loop through each sublist and append each element to the
+#    flat_list
+# 3. Print the flattened list.
