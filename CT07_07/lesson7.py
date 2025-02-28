@@ -127,4 +127,4 @@ list2 = [5, 6, 7, 8]
 even=[]
 # 1. Create an empty list named 'even'
 # 2. Using 'for' loops, append even elements into 'even'
-# 3. Print the new list.
+# 3. Print the new list
