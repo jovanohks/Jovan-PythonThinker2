@@ -131,4 +131,5 @@ even=[]
 hello=list1+list2
 for i in hello:
     if i %2 == 0:
-        
+        even.append(i)
+print(even)
