@@ -165,7 +165,7 @@ sublist=[]
 # 1. Use a loop to create sub-lists of the specified size.
 # 2. Print the sub-lists.
 for i in range(0,len(students),size):
-    sublist.append(students[:size])
+    sublist.append(students[size-3:size])
     size=size+3
 
 print(sublist)
