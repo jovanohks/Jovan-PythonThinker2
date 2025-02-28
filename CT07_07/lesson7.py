@@ -42,4 +42,4 @@ list2 = ["Durian", "Elderberry", "Figs"]
 # Use another variable pls
 print(list1+list2)
 
-list
+nothing = list1+list2
