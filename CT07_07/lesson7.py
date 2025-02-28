@@ -149,4 +149,5 @@ nested_list = [[1, 2], [3, 4], [5, 6, 7]]
 flat_list = []
 for i in nested_list:
     for x in i:
-        flat
+        flat_list.append(x)
+print(flat_list)
