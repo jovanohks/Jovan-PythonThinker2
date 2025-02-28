@@ -26,4 +26,4 @@ for nothing in student: # what is the "i" variable used for
     name , number , cca = nothing
     print("Name: ",name)
     print("Phone number: ",number)
-    print(cca)
+    print("CCA: ",cca)
