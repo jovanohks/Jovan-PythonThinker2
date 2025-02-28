@@ -101,16 +101,30 @@
 # Your task is to merge the 2 lists into a new list that contain
 # no duplicates.
 
-list1 = ["Apple", "Banana", "Cherry", "Cherry"]
-list2 = ["Cherry", "Durian", "Durian", "Figs"]
-unique=[]
+# list1 = ["Apple", "Banana", "Cherry", "Cherry"]
+# list2 = ["Cherry", "Durian", "Durian", "Figs"]
+# unique=[]
 # 1. Create an empty list named 'unique'
 # 2. Using 'for' loops, append unique elements into 'unique'
 # 3. Print the unique elements
-for i in list1+list2:
-    if i not in unique:
-        unique.append(i)
+# for i in list1+list2:
+#     if i not in unique:
+#         unique.append(i)
 # for i in list2:
 #     if i not in unique:
 #         unique.append(i)
-print(unique)
+# print(unique)
+
+## Task 7: Merging Lists with Conditions
+# You have been given the index number of 2 groups of students.
+# However, only students with even index number is allowed
+# to come into the room. Create a Python script that will
+# merge the 2 lists, including only the elements that are
+# even from both.
+
+list1 = [1, 2, 3, 4]
+list2 = [5, 6, 7, 8]
+
+# 1. Create an empty list named 'even'
+# 2. Using 'for' loops, append even elements into 'even'
+# 3. Print the new list.
