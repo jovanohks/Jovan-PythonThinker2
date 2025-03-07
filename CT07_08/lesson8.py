@@ -7,7 +7,7 @@ userwant="" #a variable to store the
 while True:
     userwant= input("What would you like to order? ") #ask user for what food to add to order
     if userwant == "end":
-        break #
+        break #if user type end, end the program
     else:
         order.append(userwant)
 print("You have ordered the following:")
