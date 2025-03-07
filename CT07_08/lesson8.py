@@ -3,7 +3,7 @@ print("Hello from lesson 8")
 #Q1
 import random
 health=100
-numofbattles=0 #
+num_of_battles = 0
 
 
 
