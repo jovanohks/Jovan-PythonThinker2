@@ -9,6 +9,7 @@ while True:
     if userwant == "end":
         break
     else:
+        order.append(userwant)
 else:
     print(order)
 
