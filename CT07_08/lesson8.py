@@ -13,7 +13,7 @@ while True:
 print(order)
 print("You have ordered the following:")
 for items in order:
-    print(str(len())+items)
+    print(str(order.index(items))+items)
 
 
 
