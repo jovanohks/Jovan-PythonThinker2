@@ -12,7 +12,7 @@ while True:
         break
     else:
         print("After fighting monsters, his Health is now: "+str(health))
-        num
+        num_of_battles +=1
 print("He fought XXX battles, and died.")
 
 
