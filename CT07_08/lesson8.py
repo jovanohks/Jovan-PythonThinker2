@@ -13,7 +13,7 @@ while True:
     else:
         print("After fighting monsters, his Health is now: "+str(health))
         num_of_battles +=1
-print("He fought XXX battles, and died.")
+print(f"He fought {num_of_battles} battles, and died.")
 
 
 
