@@ -9,7 +9,7 @@ while True:
     if userwant == "end":
         break #if user type end, end the program
     else:
-        order.append(userwant)
+        order.append(userwant) #append what user has ordered to the 
 print("You have ordered the following:")
 for items in order:
     print(str(order.index(items)+1)+". "+items)
