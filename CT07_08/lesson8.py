@@ -12,7 +12,8 @@ while True:
         order.append(userwant)
 print(order)
 print("You have ordered the following:")
-
+for items in order:
+    
 
 
 
