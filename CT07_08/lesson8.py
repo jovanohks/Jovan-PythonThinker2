@@ -11,7 +11,8 @@ while True:
     if health <=0:
         break
     else:
-        print("After fighting monsters, his Health is now: ")
+        print("After fighting monsters, his Health is now: "+str(health))
+        num
 print("He fought XXX battles, and died.")
 
 
