@@ -23,3 +23,4 @@ print("Hello from lesson 8")
 #Q2
 
 health = 100
+print(random.randint(1,15))
