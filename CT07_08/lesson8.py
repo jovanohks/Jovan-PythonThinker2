@@ -4,6 +4,8 @@ print("Hello from lesson 8")
 import random
 health=100
 num_of_battles = 0
+print("Hero starts on his adventure with Health: 100")
+
 
 
 
