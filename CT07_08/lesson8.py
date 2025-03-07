@@ -10,8 +10,7 @@ while True:
         break
     else:
         order.append(userwant)
-else:
-    print(order)
+print(order)
 
 
 
