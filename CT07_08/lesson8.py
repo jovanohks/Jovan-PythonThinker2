@@ -7,7 +7,8 @@ userwant=[]
 while True:
     userwant= input("What would you like to order? ")
     if userwant == "end":
-        
+        break
+    else:
 else:
     print(order)
 
