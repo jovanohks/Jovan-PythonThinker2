@@ -10,6 +10,8 @@ while True:
     health = health - minushealth
     if health <=0:
         break
+    else:
+        print("He fought XXX battles, and died.")
 print("He fought XXX battles, and died.")
 
 
