@@ -2,7 +2,7 @@ print("Hello from lesson 8")
 
 
 #Q1
-order = [] # list  to store 
+order = [] # list  to store food user wants
 userwant="" #a variable to store the
 while True:
     userwant= input("What would you like to order? ")
