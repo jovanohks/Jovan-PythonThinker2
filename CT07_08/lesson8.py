@@ -22,7 +22,7 @@ print(f"He fought {num_of_battles} battles, and died.")
 #Q2
 order = [] # list  to store food user wants
 userwant="" #a variable to store the food that user wants to add to order
-numitems = 1 #count the number of item that for loop will print
+numitems = 1 #count the number of food
 while True:
     userwant= input("What would you like to order? ") #ask user for what food to add to order
     if userwant == "end":
