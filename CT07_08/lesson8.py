@@ -1,5 +1,11 @@
 print("Hello from lesson 8")
 
+#Q1
+
+
+
+
+
 
 #Q2
 # order = [] # list  to store food user wants
