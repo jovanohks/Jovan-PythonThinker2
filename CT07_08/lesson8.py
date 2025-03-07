@@ -7,6 +7,7 @@ userwant=[]
 while not userwant =="end":
     order.append(userwant)
     userwant= input("What would you like to order? ")
+    order.append(userwant)
 else:
     print(order)
 
