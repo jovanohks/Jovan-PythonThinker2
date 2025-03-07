@@ -31,7 +31,7 @@ while True:
         order.append(userwant) #append what user has ordered to the stuff that user want
 print("You have ordered the following:")
 for items in order:
-    print(f"{numitems}. {items}") # , and tell user what he has ordered
+    print(f"{numitems}. {items}") #add number of food , and tell user what he has ordered
     numitems +=1 # increment number of object to print for next item
     
 
