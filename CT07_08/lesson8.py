@@ -10,7 +10,6 @@ while True:
         break
     else:
         order.append(userwant)
-print(order)
 print("You have ordered the following:")
 for items in order:
     print(str(order.index(items)+1)+". "+items)
