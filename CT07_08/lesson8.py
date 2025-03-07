@@ -23,4 +23,3 @@ print("Hello from lesson 8")
 #Q2
 import random
 health = 100
-print(random.randint(1,15))
