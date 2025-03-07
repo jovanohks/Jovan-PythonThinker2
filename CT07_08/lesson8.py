@@ -29,9 +29,7 @@ while True:
     else:
         order.append(userwant) #append what user has ordered to the stuff that user want
 print("You have ordered the following:")
-for items in order:
-    print(str(order.index(items)+1)+". "+items) #print the index of items plus 1 since index start from 0 , and tell user what he has ordered
-    print(f"{order.index(items)+1}. {items}") #
+for items in order:   print(f"{order.index(items)+1}. {items}") #print the index of items plus 1 since index start from 0 , and tell user what he has ordered
 
 
 
