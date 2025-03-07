@@ -7,6 +7,7 @@ num_of_battles = 0
 print("Hero starts on his adventure with Health: 100")
 while health >=1:
     minushealth = random.randint(1,15)
+    health = health - minushealth
     
 
 
