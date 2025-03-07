@@ -1,7 +1,7 @@
 print("Hello from lesson 8")
 
 
-#Q1
+#Q2
 # order = [] # list  to store food user wants
 # userwant="" #a variable to store the
 # while True:
@@ -20,6 +20,3 @@ print("Hello from lesson 8")
 
 
 
-#Q2
-import random
-health = 100
