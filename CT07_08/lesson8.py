@@ -32,6 +32,7 @@ while True:
 print("You have ordered the following:")
 for items in order:
     print(f"{numitems}. {items}") #print the index of items plus 1 since index start from 0 , and tell user what he has ordered
+    numitems +=1
     
 
 
