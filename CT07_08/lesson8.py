@@ -21,7 +21,8 @@ print(f"He fought {num_of_battles} battles, and died.")
 
 #Q2
 order = [] # list  to store food user wants
-userwant="" #a variable to store the
+userwant="" #a variable to store the food that user wants to add to order
+numitems = 1 #count the number of item that for loop will print
 while True:
     userwant= input("What would you like to order? ") #ask user for what food to add to order
     if userwant == "end":
@@ -30,7 +31,8 @@ while True:
         order.append(userwant) #append what user has ordered to the stuff that user want
 print("You have ordered the following:")
 for items in order:
-    print(f"{order+1}. {items}") #print the index of items plus 1 since index start from 0 , and tell user what he has ordered
+    print(f"{o1}. {items}") #print the index of items plus 1 since index start from 0 , and tell user what he has ordered
+    
 
 
 
