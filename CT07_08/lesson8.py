@@ -8,8 +8,9 @@ print("Hero starts on his adventure with Health: 100")
 while health >=1:
     minushealth = random.randint(1,15)
     health = health - minushealth
-    print("After fighting monsters, his health is now: "+str(health))
-print("hero has died.")
+    if health <=0
+        break
+print("He fought XXX battles, and died.")
 
 
 
