@@ -11,7 +11,7 @@ while True:
     else:
         order.append(userwant)
 print(order)
-
+print("You have ")
 
 
 
