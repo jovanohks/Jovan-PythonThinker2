@@ -5,7 +5,7 @@ import random
 health=100
 num_of_battles = 0
 print("Hero starts on his adventure with Health: 100")
-while health >=1:
+while True:
     minushealth = random.randint(1,15)
     health = health - minushealth
     if health <=0:
