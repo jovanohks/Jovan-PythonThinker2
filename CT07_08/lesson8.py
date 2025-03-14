@@ -141,7 +141,7 @@
 # x = input("what is the input: ")
 # print(x.split(","))
 
-## Task 4: Joining Words into a Sentence (.join()) # Try and do without me teaching this :D its quite easy
+## Task 4: Joining Words into a Sentence (.join()) 
 # **Task 4a**:
 # Given the following list of words, write a program to join
 # these words into a single string, separated by spaces:
