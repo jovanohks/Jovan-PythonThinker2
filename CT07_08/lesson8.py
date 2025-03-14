@@ -99,3 +99,22 @@
 #     upper = not upper
 # print(result)
 
+## Task 3: Splitting a Sentence into Words (.split())
+# **Task 3a**:
+# Write a program to split the following string into a list of
+# words using space as the delimiter:
+
+# Example:
+# Input:
+# "Computers empower our modern world with their digital brains."
+
+# Output:
+# ['Computers',
+#  'empower',
+#  'our',
+#  'modern',
+#  'world',
+#  'with',
+#  'their',
+#  'digital',
+#  'brains.']
