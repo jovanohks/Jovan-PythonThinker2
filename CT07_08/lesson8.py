@@ -170,5 +170,7 @@
 # Example:
 # Sentence = "Hello World"
 # Output: 'olleH dlroW'
-x = input(" what sentence do u want to reverse?")
-print(x[::-1])
+result =""
+x = input(" what sentence do u want to reverse? ")
+for i in range(0,len(x.split())):
+    result = result + x.split()[i][::-1]
