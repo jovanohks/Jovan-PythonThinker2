@@ -38,3 +38,7 @@
 # 2. H3ll0W0r1d
 # 3. BestF00d
 # 4. pa55Me
+
+pw = input("what password do u want?")
+if pw.isalnum and not pw.isdigit and not pw.isupper and not pw.islower:
+    print
