@@ -18,4 +18,4 @@ list6=[]
 list4=sorted(set(list1+list2+list3))
 print(list4)
 list5.append(list4[:len(list4//2)]) 
-list6.append([listlen(list4//2):])
+list6.append(list4[len(list4//2):])
