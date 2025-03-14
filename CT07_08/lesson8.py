@@ -89,6 +89,7 @@
 # 3. Alternate between '.upper()' and '.lower()' for each letter
 # 4. Print the result
 i = input(" what do u want to input?: ")
+n = 0
 result =""
 for x in i:
     result +=x
