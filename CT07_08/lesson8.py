@@ -16,4 +16,4 @@ list3 = [9, 8, 7]
 # 4. Print the halves.
 for i in list1:
     if i in list2:
-        list1
+        list1.pop(i)
