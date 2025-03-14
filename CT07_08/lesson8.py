@@ -118,5 +118,23 @@
 #  'their',
 #  'digital',
 #  'brains.']
-x = input("what is the input: ")
-print(x.split())
+# x = input("what is the input: ")
+# print(x.split())
+
+# **Task 3b**:
+# Write a program to split the following string into a list of
+# words using a comma (,) as the delimiter:
+
+# "Computers,empower,our,modern,world,with,their,digital,brains"
+
+# Example:
+# Input: "Computers,empower,our,modern,world,with,their,digital,brains"
+# Output: ['Computers',
+#          'empower',
+#          'our',
+#          'modern',
+#          'world',
+#          'with',
+#          'their',
+#          'digital',
+#          'brains.']
