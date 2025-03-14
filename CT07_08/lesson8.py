@@ -88,6 +88,6 @@
 # 2. Use loops to iterate through each letter of the sentence
 # 3. Alternate between '.upper()' and '.lower()' for each letter
 # 4. Print the result
-i = (" what do u want to input?: ")
+i = input(" what do u want to input?: ")
 for x in i:
     print(f"{x}")
