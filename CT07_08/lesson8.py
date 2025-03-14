@@ -39,7 +39,7 @@
 # 3. BestF00d=> true
 # 4. pa55Me => false
 
-pw = input("what password do u want?")
+pw = input("what password do u want? ")
 print(len(pw))
 if (len(pw) >=8) and (pw.isalnum)  and (not pw.isalpha) and (not pw.isupper) and not (pw.islower):
     print("password accepted")
