@@ -91,4 +91,4 @@
 i = input(" what do u want to input?: ")
 result =""
 for x in i:
-    
+    result +=x
