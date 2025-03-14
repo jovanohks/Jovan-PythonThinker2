@@ -92,4 +92,9 @@ i = input(" what do u want to input?: ")
 n = 0
 result =""
 for x in i:
-    result +=x
+    n = n+1
+    if n %2 ==0:
+        result +=x.isupper()
+    else:
+        result +=x.islower
+print(result)
