@@ -93,8 +93,7 @@ upper = True
 n = 0
 result =""
 for x in i:
-    n = n+1
-    if upper == True:
+    if upper:
         result +=str(x.upper())
     else:
         result +=str(x.lower())
