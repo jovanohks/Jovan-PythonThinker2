@@ -151,6 +151,22 @@
 # Example:
 # Input: ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
 # Output: "Computers empower our modern world with their digital brains."
-sentence = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
-result =" ".join(sentence)
-print(result)
+# sentence = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+# result =" ".join(sentence)
+# print(result)
+
+
+## Task 5: Reversing Words in a Sentence
+# Create a program that takes the sentence "Hello World",
+# reverses each word, and then joins them back into a sentence.
+
+# 1. Split the sentence "Hello World" into a list of words using
+#    space as the delimiter
+# 2. Go through the list and reverse each word
+# 3. Using space as the separator, join the list of reversed
+#    words back into a string
+# 4. Print the reversed string
+
+# Example:
+# Sentence = "Hello World"
+# Output: 'olleH dlroW'
