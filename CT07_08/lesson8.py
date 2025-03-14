@@ -93,7 +93,7 @@ n = 0
 result =""
 for x in i:
     n = n+1
-    if n %2 ==0:
+    if n %2 ==1:
         result +=str(x.upper())
     else:
         result +=str(x.lower())
