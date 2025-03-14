@@ -98,3 +98,4 @@ for x in i:
         result +=str(x.lower())
     upper = not upper
 print(result)
+
