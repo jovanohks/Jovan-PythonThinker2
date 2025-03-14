@@ -90,4 +90,4 @@
 # 4. Print the result
 i = (" what do u want to input?: ")
 for x in i:
-    print
+    print(f"{x}")
