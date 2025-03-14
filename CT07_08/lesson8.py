@@ -40,5 +40,6 @@
 # 4. pa55Me
 
 pw = input("what password do u want?")
+print(len(pw))
 if (len(pw) >=8) and (pw.isalnum)  and (not pw.isupper and not pw.islower):
     print("password accepted")
