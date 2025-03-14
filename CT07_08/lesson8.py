@@ -90,7 +90,6 @@
 # 4. Print the result
 i = input(" what do u want to input?: ")
 upper = True
-n = 0
 result =""
 for x in i:
     if upper:
