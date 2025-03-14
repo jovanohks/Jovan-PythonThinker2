@@ -88,14 +88,14 @@
 # 2. Use loops to iterate through each letter of the sentence
 # 3. Alternate between '.upper()' and '.lower()' for each letter
 # 4. Print the result
-i = input(" what do u want to input?: ")
-upper = True
-result =""
-for x in i:
-    if upper:
-        result +=str(x.upper())
-    else:
-        result +=str(x.lower())
-    upper = not upper
-print(result)
+# i = input(" what do u want to input?: ")
+# upper = True
+# result =""
+# for x in i:
+#     if upper:
+#         result +=str(x.upper())
+#     else:
+#         result +=str(x.lower())
+#     upper = not upper
+# print(result)
 
