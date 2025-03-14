@@ -14,3 +14,5 @@ list3 = [9, 8, 7]
 # 2. Sort the resulting list.
 # 3. Split the list into 2 sorted halves.
 # 4. Print the halves.
+list4 = list1+list2+list3
+print(list4)
