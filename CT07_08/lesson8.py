@@ -39,41 +39,53 @@
 # 3. BestF00d=> true
 # 4. pa55Me => false
 
-pw = input("what password do u want? ")
-print(len(pw))
-if (len(pw) >=8) and (pw.isalnum())  and (not pw.isalpha()) and (not pw.isupper()) and not (pw.islower()):
-    print("password accepted")
+# pw = input("what password do u want? ")
+# print(len(pw))
+# if (len(pw) >=8) and (pw.isalnum())  and (not pw.isalpha()) and (not pw.isupper()) and not (pw.islower()):
+#     print("password accepted")
 
-    # 8.1
-user_input = input("New password: ")
+#     # 8.1
+# user_input = input("New password: ")
 
-is_8char_long = False
-has_upper = False
-has_lower = False
-has_num = False
-only_alnum = False
+# is_8char_long = False
+# has_upper = False
+# has_lower = False
+# has_num = False
+# only_alnum = False
 
-if len(user_input) >= 8:
-    is_8char_long = True
+# if len(user_input) >= 8:
+#     is_8char_long = True
 
-for i in user_input:
-    if i.isupper() == True:
-        has_upper = True
+# for i in user_input:
+#     if i.isupper() == True:
+#         has_upper = True
 
-for i in user_input:
-    if i.islower() == True:
-        has_lower = True
+# for i in user_input:
+#     if i.islower() == True:
+#         has_lower = True
 
-for i in user_input:
-    if i.isdigit() == True:
-        has_num = True
+# for i in user_input:
+#     if i.isdigit() == True:
+#         has_num = True
 
-if user_input.isalnum() == True:
-    only_alnum = True
+# if user_input.isalnum() == True:
+#     only_alnum = True
 
-if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
-    print("Password is valid")
-else:
-    print("Invalid password")
+# if is_8char_long and has_upper and has_lower and has_num and only_alnum is True:
+#     print("Password is valid")
+# else:
+#     print("Invalid password")
+
 #2
+## Task 2: Mocking Text Generator6
+# Create a program that will turn regular sentences into a
+# "SpongeBob Mocking" meme.
 
+# For example, the program will turn "Hello my name is James"
+# into "HeLlO mY nAmE iS jAmEs"
+
+# 1. Using 'input()', ask the user for a sentence
+# 2. Use loops to iterate through each letter of the sentence
+# 3. Alternate between '.upper()' and '.lower()' for each letter
+# 4. Print the result
+input = (" what do u want to input?: ")
