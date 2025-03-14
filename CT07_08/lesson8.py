@@ -41,4 +41,4 @@
 
 pw = input("what password do u want?")
 if pw.isalnum and not pw.isdigit and not pw.isupper and not pw.islower:
-    print
+    print("password accepted")
