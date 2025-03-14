@@ -34,12 +34,12 @@
 
 # You may use some of the following passwords to test your
 # program:
-# 1. PassW0rd
+# 1. PassW0rd => 
 # 2. H3ll0W0r1d
 # 3. BestF00d
 # 4. pa55Me
 
 pw = input("what password do u want?")
 print(len(pw))
-if (len(pw) >=8) and (pw.isalnum)  and not pw.isalpha and (not pw.isupper) and not (pw.islower):
+if (len(pw) >=8) and (pw.isalnum)  and (not pw.isalpha) and (not pw.isupper) and not (pw.islower):
     print("password accepted")
