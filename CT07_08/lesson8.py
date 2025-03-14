@@ -96,5 +96,5 @@ for x in i:
     if n %2 ==0:
         result +=str(x.isupper())
     else:
-        result +=str(x.islower)
+        result +=str(x.islower())
 print(result)
