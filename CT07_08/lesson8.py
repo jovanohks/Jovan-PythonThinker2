@@ -96,8 +96,7 @@ for x in i:
     n = n+1
     if upper == True:
         result +=str(x.upper())
-        upper = False
     else:
         result +=str(x.lower())
-        upper = True
+    upper = not upper
 print(result)
