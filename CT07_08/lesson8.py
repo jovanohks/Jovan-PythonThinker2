@@ -15,3 +15,4 @@ list3 = [9, 8, 7]
 # 3. Split the list into 2 sorted halves.
 # 4. Print the halves.
 list4=sorted(set(list1+list2+list3))
+print(list4)
