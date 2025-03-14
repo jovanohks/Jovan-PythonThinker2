@@ -174,7 +174,7 @@
 
 result =""
 x = input(" what sentence do u want to reverse? ")
-y = x.split
+y = x.split()
 for i in range(0,len(x.split())):
     result =" ".join((y[::-1]))
 print(result)
