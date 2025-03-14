@@ -17,6 +17,7 @@ list6=[]
 # 4. Print the halves.
 list4=sorted(set(list1+list2+list3))
 print(list4)
-list5 = list4[:len(list4)]
+list5 = list4[:len(list4)//2]
+list6 = list4[len(list4)//2:]
 print(list5)
 print(list6)
