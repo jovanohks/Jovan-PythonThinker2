@@ -171,4 +171,4 @@
 # Sentence = "Hello World"
 # Output: 'olleH dlroW'
 x = input(" what sentence do u want to reverse?")
-print("")
+print(x[::-1])
