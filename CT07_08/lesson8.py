@@ -152,3 +152,4 @@
 # Input: ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
 # Output: "Computers empower our modern world with their digital brains."
 sentence = ['Computers', 'empower', 'our', 'modern', 'world', 'with', 'their', 'digital', 'brains.']
+result =" "
