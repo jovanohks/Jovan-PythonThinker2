@@ -170,6 +170,9 @@
 # Example:
 # Sentence = "Hello World"
 # Output: 'olleH dlroW'
+
+
+
 result =""
 x = input(" what sentence do u want to reverse? ")
 for i in range(0,len(x.split())):
