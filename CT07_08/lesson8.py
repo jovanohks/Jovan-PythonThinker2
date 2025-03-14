@@ -94,8 +94,10 @@ n = 0
 result =""
 for x in i:
     n = n+1
-    if n %2 ==1:
+    if upper == True:
         result +=str(x.upper())
+        upper = False
     else:
         result +=str(x.lower())
+        upper = True
 print(result)
