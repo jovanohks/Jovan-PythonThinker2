@@ -119,3 +119,4 @@
 #  'digital',
 #  'brains.']
 x = input("what is the input: ")
+for 
