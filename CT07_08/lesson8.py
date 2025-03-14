@@ -94,7 +94,7 @@ result =""
 for x in i:
     n = n+1
     if n %2 ==0:
-        result +=str(x.isupper())
+        result +=str(x.upper())
     else:
-        result +=str(x.islower())
+        result +=str(x.lower())
 print(result)
