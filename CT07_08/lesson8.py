@@ -16,4 +16,6 @@ list3 = [9, 8, 7]
 # 4. Print the halves.
 list4 = list1+list2+list3
 print(list4)
-print(sorted(list4))
+for i in list1:
+    if i in list2:
+        
