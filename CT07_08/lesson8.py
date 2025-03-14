@@ -138,5 +138,7 @@
 #          'their',
 #          'digital',
 #          'brains.']
-x = input("what is the input: ")
-print(x.split(","))
+# x = input("what is the input: ")
+# print(x.split(","))
+
+
