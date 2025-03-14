@@ -139,3 +139,4 @@
 #          'digital',
 #          'brains.']
 x = input("what is the input: ")
+print(x.split(","))
