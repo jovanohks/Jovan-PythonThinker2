@@ -41,4 +41,27 @@ for i in range(-300,300,25):
     t.pendown()
     t.stamp()
 
+# **Task 1c**: Drawing the start line
+# Adding on to your previous answer, use the 'pen' turtle object
+# you have created earlier to draw a horizontal yellow start
+# line at y = -250.
+
+# 1. Using '.goto()', set 'pen' turtle's coordinates to
+#    (-300, -250)
+# 2. Using the following commands, set the colour of 'pen' to
+#    "yellow", set heading to 0 and move forward by 600
+#    before hiding the turtle:
+#         a. '.pencolor()'
+#         b. '.pendown()'
+#         c. '.seth()'
+#         d. '.forward()'
+#         e. '.hideturtle()'
+
+# Tip: Use '.mainloop()' at the end of your program to keep the
+# window open
+
+# You should see this when you run the program! (Refer to slides)
+
+
+
 window.mainloop()
