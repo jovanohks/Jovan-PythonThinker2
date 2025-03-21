@@ -222,4 +222,4 @@ print(y)
 for i in range(len(y)):
     if y[i][::-1] ==y[i]:
         z.append(y[i])
-print(z)
+print(f"{len(z)} palindrome(s) detected: ")
