@@ -195,7 +195,7 @@ b = 0
 while x[y] == x[z]:
     y = y+1
     z = z -1
-    print(true)
+    print("true")
 
 
 ## Task 7: Checking user input for Palindrome
