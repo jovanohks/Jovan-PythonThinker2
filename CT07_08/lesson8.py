@@ -197,6 +197,7 @@ while x[y] == x[z]:
     z = z -1
 
 
+
 ## Task 7: Checking user input for Palindrome
 # Create a while loop that will endlessly ask user for a word and
 # check if the word is a Palindrome.
