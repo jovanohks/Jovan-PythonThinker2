@@ -33,6 +33,7 @@ window.bgcolor("forestgreen")
 # You should see this when you run the program! (Refer to slides)
 t = turtle.Turtle()
 t.shape("square")
+t.penup()
 t.sety(250)
 for i in range(-300,300,25):
     t.penup()
