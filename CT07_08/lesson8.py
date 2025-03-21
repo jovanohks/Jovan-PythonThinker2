@@ -187,3 +187,4 @@
 # Example:
 # Input: "radar"
 # Output: True
+x = input
