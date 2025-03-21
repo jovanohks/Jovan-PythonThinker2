@@ -215,3 +215,4 @@ while True:
 # Output:
 # 1 palindrome detected:
 # a
+x = input("enter sentence: ")
