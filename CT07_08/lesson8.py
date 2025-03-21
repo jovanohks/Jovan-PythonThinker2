@@ -187,4 +187,29 @@
 # Example:
 # Input: "radar"
 # Output: True
-x = input
+x = input("what is input?")
+y = 1
+z = len(x) -1
+
+
+
+## Task 7: Checking user input for Palindrome
+# Create a while loop that will endlessly ask user for a word and
+# check if the word is a Palindrome.
+
+# The while loop will end when user says "end"
+
+
+
+
+## Task 8: Checking user input for presence of Palindrome
+# Create a program that will check if a palindrome exists in a
+# sentence.
+
+### Example:
+# Input:
+# Enter a sentence: <<"This is a sentence, check for palindrome">>
+
+# Output:
+# 1 palindrome detected:
+# a
