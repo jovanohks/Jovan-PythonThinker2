@@ -188,10 +188,7 @@
 # Input: "radar"
 # Output: True
 x = input("what is input?")
-y = 1
-z = len(x) -1
-a = 0 
-b = 0
+
 if x[::-1] == x :
     print("true")
 else:
