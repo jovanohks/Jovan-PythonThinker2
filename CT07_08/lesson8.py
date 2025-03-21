@@ -196,11 +196,11 @@
 # check if the word is a Palindrome.
 
 # The while loop will end when user says "end"
-while True:
-    x = input("what is the word")
-    if x == "end":
-        break
-    print(x[::-1] == x)
+# while True:
+#     x = input("what is the word")
+#     if x == "end":
+#         break
+#     print(x[::-1] == x)
 
 
 
@@ -216,5 +216,5 @@ while True:
 # 1 palindrome detected:
 # a
 x = input("enter sentence: ")
-y = x.split( )
+y = x.split(" ")
 print(y)
