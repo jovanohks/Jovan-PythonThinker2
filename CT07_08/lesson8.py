@@ -187,7 +187,7 @@
 # Example:
 # Input: "radar"
 # Output: True
-x = input("what is input?")
+# x = input("what is input?")
 # print(x[::-1] == x)
 
 
