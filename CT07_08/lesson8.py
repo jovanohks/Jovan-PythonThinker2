@@ -224,4 +224,4 @@ for i in range(len(y)):
         z.append(y[i])
 print(f"{len(z)} palindrome(s) detected: ")
 for i in range(len(z)):
-    print(z)
+    print(z[i])
