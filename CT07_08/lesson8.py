@@ -193,7 +193,8 @@ z = len(x) -1
 a = 0 
 b = 0
 while x[y] == x[z]:
-    
+    y = y+1
+    z = z -1
 
 
 ## Task 7: Checking user input for Palindrome
