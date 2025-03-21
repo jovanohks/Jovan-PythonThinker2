@@ -215,16 +215,16 @@
 # Output:
 # 1 palindrome detected:
 # a
-x = input("enter sentence: ")
-y = x.split(" ")
-z = []
-print(y)
-for i in y:
-    if i[::-1] ==i:
-        z.append(i)
-print(f"{len(z)} palindrome(s) detected: ")
-for i in z:
-    print(i)
-
+# x = input("enter sentence: ")
+# y = x.split(" ")
+# z = []
+# print(y)
+# for i in y:
+#     if i[::-1] ==i:
+#         z.append(i)
+# print(f"{len(z)} palindrome(s) detected: ")
+# for i in z:
+#     print(i)
+print("2")
 
     
