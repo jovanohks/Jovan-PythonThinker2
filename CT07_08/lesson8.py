@@ -188,7 +188,7 @@
 # Input: "radar"
 # Output: True
 x = input("what is input?")
-print(x[::-1] == x)
+# print(x[::-1] == x)
 
 
 ## Task 7: Checking user input for Palindrome
