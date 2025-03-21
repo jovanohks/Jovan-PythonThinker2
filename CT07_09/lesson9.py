@@ -31,6 +31,7 @@ window.bgcolor("forestgreen")
 # window open
 
 # You should see this when you run the program! (Refer to slides)
+t = turtle.Turtle()
 
 
 window.mainloop()
