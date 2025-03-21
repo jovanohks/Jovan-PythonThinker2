@@ -225,6 +225,5 @@
 # print(f"{len(z)} palindrome(s) detected: ")
 # for i in z:
 #     print(i)
-print("2") ; print("3") ; 
 
     
