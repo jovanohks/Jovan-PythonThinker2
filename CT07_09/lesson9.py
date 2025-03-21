@@ -65,7 +65,7 @@ for i in range(-300,300,25):
 
 t.penup()
 t.goto(-300,250)
-t.setcolor("yellow")
+t.pencolor("yellow")
 t.seth(0)
 t.pendown()
 t.forward(600)
