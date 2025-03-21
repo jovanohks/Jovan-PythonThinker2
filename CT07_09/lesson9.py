@@ -63,5 +63,7 @@ for i in range(-300,300,25):
 # You should see this when you run the program! (Refer to slides)
 
 
-
+t.penup()
+t.goto(-300,250)
+t.setcolor
 window.mainloop()
