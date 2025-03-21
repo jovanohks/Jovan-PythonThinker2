@@ -221,5 +221,5 @@ z = []
 print(y)
 for i in range(len(y)):
     if y[i][::-1] ==y[i]:
-        print(True)
+        z.append(y[i])
 print(z)
