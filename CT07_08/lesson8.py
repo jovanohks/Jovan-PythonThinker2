@@ -190,7 +190,10 @@
 x = input("what is input?")
 y = 1
 z = len(x) -1
-
+a = 0 
+b = 0
+while x[y] == x[z]:
+    
 
 
 ## Task 7: Checking user input for Palindrome
