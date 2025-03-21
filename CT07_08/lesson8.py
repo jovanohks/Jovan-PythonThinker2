@@ -220,8 +220,8 @@ y = x.split(" ")
 z = []
 print(y)
 for i in y:
-    if y[i][::-1] ==i:
-        z.append(y[i])
+    if i[::-1] ==i:
+        z.append(i)
 print(f"{len(z)} palindrome(s) detected: ")
 for i in z:
     print(z[i])
