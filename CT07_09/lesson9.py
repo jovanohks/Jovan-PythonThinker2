@@ -35,7 +35,9 @@ t = turtle.Turtle()
 t.shape("square")
 t.sety(250)
 for i in range(-300,300,25):
+    t.penup()
     t.setx(i)
+    t.pendown()
     t.stamp()
 
 window.mainloop()
