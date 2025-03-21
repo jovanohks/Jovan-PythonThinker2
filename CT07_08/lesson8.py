@@ -219,9 +219,9 @@ x = input("enter sentence: ")
 y = x.split(" ")
 z = []
 print(y)
-for i in len(y):
+for i in range(len(y)):
     if y[i][::-1] ==y[i]:
         z.append(y[i])
 print(f"{len(z)} palindrome(s) detected: ")
-for i in len(z):
+for i in range(len(z)):
     print(z[i])
