@@ -197,6 +197,7 @@
 
 # The while loop will end when user says "end"
 while True:
+    x = input("what is the word")
     if x == "end":
         break
     print(x[::-1] == x)
