@@ -216,3 +216,5 @@ while True:
 # 1 palindrome detected:
 # a
 x = input("enter sentence: ")
+y = x.split( )
+print(y)
