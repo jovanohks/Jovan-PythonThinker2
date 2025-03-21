@@ -67,5 +67,5 @@ t.penup()
 t.goto(-300,250)
 t.setcolor("yellow")
 t.seth(0)
-
+t.forward(600)
 window.mainloop()
