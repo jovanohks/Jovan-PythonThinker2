@@ -91,3 +91,5 @@ window.mainloop()
 # window open
 
 # You should see this when you run the program! (Refer to slides)
+s = turtle.Turtle()
+t.penup()
