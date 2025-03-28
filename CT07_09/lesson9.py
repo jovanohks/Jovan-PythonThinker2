@@ -165,6 +165,7 @@ guess = input("whats the winner? ")
 
 while True:
     s.seth(random.randint(75,115))
+    .seth(random.randint(75,115))
 
 
 
