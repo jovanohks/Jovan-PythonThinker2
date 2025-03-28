@@ -131,4 +131,55 @@ k.color('white')
 k.goto(200,-250)
 k.pendown()
 k.write("keith", align="center", font=('Arial', 20))
+
+**Task 1f**: Input to guess the race winner
+Adding on to your previous answer, ask the user to guess the
+winner and store the user's response in the 'guess' variable
+
+1. Using 'input()', ask the user to "Guess the winner! " in
+   the console.
+2. Store the user's response in the variable 'guess'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 window.mainloop()
