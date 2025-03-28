@@ -25,3 +25,6 @@ import turtle
 import random
 window = turtle.Screen()
 window.setup(600,400)
+t=turtle.Turtle()
+def square():
+    
