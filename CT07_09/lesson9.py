@@ -183,7 +183,18 @@ while True:
 print(f"winner:{winner}")
 
 
+# **Task 1h**: Check if user's guess is correct
+# Adding on to your previous answer, check if the user's guess is
+# correct by comparing the 'winner' variable to 'guess'. Announce
+# if the user got the right answer in the console.
 
+# 1. Using an 'if..else' statement, check if the user's guess is
+#    the winner.
+#     If the user was right,
+#         print "Your guess was correct!"
+#     Else,
+#         print "The winner was <winner>" and "Better luck next
+#         time!"
 
 
 
