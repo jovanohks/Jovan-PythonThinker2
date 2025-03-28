@@ -70,7 +70,6 @@ t.seth(0)
 t.pendown()
 t.forward(600)
 t.hideturtle()
-window.mainloop()
 
 # **Task 1d**: Create Sally the turtle
 # Adding on to your previous answer, create a red, turtle-shaped
