@@ -32,3 +32,4 @@ def square():
     t.pendown()
     for i in range(4):
         t.forward(20)
+window.mainloop()
