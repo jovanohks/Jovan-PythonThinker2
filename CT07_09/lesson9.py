@@ -163,7 +163,8 @@ guess = input("whats the winner? ")
 
 
 
-
+while True:
+    s.seth
 
 
 
