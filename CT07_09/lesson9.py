@@ -98,7 +98,7 @@ s.color('red')
 s.goto(0,-250)
 s.pendown()
 s.write("Sally", align="center", font=('Arial', 20))
-turtle.mainloop()
+
 
 # **Task 1e**: Configure Bob and Keith turtles
 # Adding on to your previous answer, repeat what you have done
@@ -120,6 +120,7 @@ b.penup()
 b.seth(90)
 b.shape("turtle")
 b.color('red')
-s.goto(0,-250)
-s.pendown()
-s.write("Sally", align="center", font=('Arial', 20))
+b.goto(0,-250)
+b.pendown()
+b.write("Sally", align="center", font=('Arial', 20))
+window.mainloop()
