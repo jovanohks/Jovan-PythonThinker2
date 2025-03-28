@@ -21,3 +21,7 @@ alert()
 
 # By calling the 'square()' function, draw a square anywhere
 # within the turtle window.
+import turtle
+import random
+window = turtle.Screen()
+window.setup(600,400)
