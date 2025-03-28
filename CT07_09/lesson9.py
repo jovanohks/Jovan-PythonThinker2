@@ -141,7 +141,6 @@ k.write("keith", align="center", font=('Arial', 20))
 # 2. Store the user's response in the variable 'guess'
 guess = input("whats the winner? ")
 
-
 # **Task 1g**: Racing loop
 # Adding on to your previous answer, import the 'random' library
 # and create a forever loop that will set each racing turtle's
