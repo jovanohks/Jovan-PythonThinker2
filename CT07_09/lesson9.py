@@ -177,6 +177,9 @@ while True:
     elif b.ycor() >250:
         winner = "Sally"
         break
+    elif k.ycor() >250:
+        winner = "Sally"
+        break
 
 
 
