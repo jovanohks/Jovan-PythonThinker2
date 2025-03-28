@@ -93,3 +93,5 @@ window.mainloop()
 # You should see this when you run the program! (Refer to slides)
 s = turtle.Turtle()
 t.penup()
+t.seth(90)
+t.shape
