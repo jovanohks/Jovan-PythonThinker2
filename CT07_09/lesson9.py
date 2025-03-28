@@ -172,7 +172,12 @@ while True:
     b.forward(random.randint(1,20))
     k.forward(random.randint(1,20))
     if s.ycor() >250:
-        winner = ""
+        winner = "Sally"
+        break
+    if s.ycor() >250:
+        winner = "Sally"
+        break
+
 
 
 
