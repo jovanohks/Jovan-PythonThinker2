@@ -70,7 +70,7 @@ t.seth(0)
 t.pendown()
 t.forward(600)
 t.hideturtle()
-
+t.mainloop()
 # **Task 1d**: Create Sally the turtle
 # Adding on to your previous answer, create a red, turtle-shaped
 # turtle object 'Sally' will be one of the turtle racers.
@@ -98,4 +98,4 @@ s.color('red')
 s.goto(0,-250)
 s.pendown()
 s.write("Sally", align="center", font=('Arial', 20))
-
+t.mainloop
