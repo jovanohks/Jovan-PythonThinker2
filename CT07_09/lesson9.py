@@ -180,7 +180,7 @@ while True:
     elif k.ycor() >250:
         winner = "keith"
         break
-print()
+print(f"winner:{winner}")
 
 
 
