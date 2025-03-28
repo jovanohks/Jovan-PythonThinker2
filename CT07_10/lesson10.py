@@ -32,6 +32,6 @@ def square():
     t.pendown()
     for i in range(4):
         t.forward(20)
-        t.
+        t.right(90)
 square()
 window.mainloop()
