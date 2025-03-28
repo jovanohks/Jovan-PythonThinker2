@@ -98,4 +98,4 @@ s.color('red')
 s.goto(0,-250)
 s.pendown()
 s.write("Sally", align="center", font=('Arial', 20))
-t.mainloop
+s.mainloop()
