@@ -171,6 +171,8 @@ while True:
     s.forward(random.randint(1,20))
     b.forward(random.randint(1,20))
     k.forward(random.randint(1,20))
+    if s.ycor() >250:
+        winner = ""
 
 
 
