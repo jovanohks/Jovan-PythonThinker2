@@ -115,3 +115,11 @@ turtle.mainloop()
 # window open
 
 # You should see this when you run the program! (Refer to slides)
+b = turtle.Turtle()
+b.penup()
+s.seth(90)
+s.shape("turtle")
+s.color('red')
+s.goto(0,-250)
+s.pendown()
+s.write("Sally", align="center", font=('Arial', 20))
