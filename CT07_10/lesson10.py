@@ -27,7 +27,6 @@ window = turtle.Screen()
 window.setup(600,400)
 t=turtle.Turtle()
 t.seth(90)
-
 def square():
     t.pendown()
     for i in range(4):
