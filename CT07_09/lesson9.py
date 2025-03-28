@@ -198,6 +198,8 @@ print(f"winner:{winner}")
 
 if winner == guess:
     print("your guess was correct!")
+else:
+    print(f"the winner was {winner}, better luck next time!")
 
 
 
