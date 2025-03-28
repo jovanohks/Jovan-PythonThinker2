@@ -45,6 +45,7 @@ square()
 #     15
 def multiply(x,y):
     print(x*y)
+    multiply(3,5)
 ## Task 4: Function with parameter (w turtle)
 # Using the 'turtle' library, create a function 'drawSquare()',
 # with 2 parameters, x and y, and draw a 20x20 square at the
