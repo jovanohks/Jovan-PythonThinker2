@@ -196,7 +196,8 @@ print(f"winner:{winner}")
 #         print "The winner was <winner>" and "Better luck next
 #         time!"
 
-if winner == 
+if winner == guess:
+    print("your guess was correct!")
 
 
 
