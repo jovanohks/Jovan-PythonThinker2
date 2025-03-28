@@ -31,4 +31,4 @@ t.seth(90)
 def square():
     t.pendown()
     for i in range(4):
-        t.forward()
+        t.forward(20)
