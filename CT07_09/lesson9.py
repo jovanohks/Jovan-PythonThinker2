@@ -94,4 +94,5 @@ window.mainloop()
 s = turtle.Turtle()
 s.penup()
 s.seth(90)
-s.
+s.shape("turtle")
+s.color('')
