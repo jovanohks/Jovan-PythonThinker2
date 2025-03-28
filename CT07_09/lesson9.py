@@ -175,10 +175,10 @@ while True:
         winner = "Sally"
         break
     elif b.ycor() >250:
-        winner = "Sally"
+        winner = "bob"
         break
     elif k.ycor() >250:
-        winner = "Sally"
+        winner = "keith"
         break
 
 
