@@ -174,7 +174,7 @@ while True:
     if s.ycor() >250:
         winner = "Sally"
         break
-    if s.ycor() >250:
+    elif b.ycor() >250:
         winner = "Sally"
         break
 
