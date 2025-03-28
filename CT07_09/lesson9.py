@@ -169,7 +169,8 @@ while True:
     b.seth(random.randint(75,115))
     k.seth(random.randint(75,115))
     s.forward(random.randint(1,20))
-    s.forward(random.randint(1,20))
+    b.forward(random.randint(1,20))
+    k.forward(random.randint(1,20))
 
 
 
